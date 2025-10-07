@@ -1,0 +1,51 @@
+==89322== Memcheck, a memory error detector
+==89322== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==89322== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==89322== Command: ../../alat-za-analitiku/alatZaAnalitiku/build/Desktop_Qt_6_9_3-Debug/alatZaAnalitiku
+==89322== Parent PID: 89321
+==89322== 
+==89322== Use of uninitialised value of size 8
+==89322==    at 0x21FFCF: DynamicUI::openPlotWindow() (dynamicui.cpp:74)
+==89322==    by 0x229C86: QtPrivate::FunctorCall<std::integer_sequence<unsigned long>, QtPrivate::List<>, void, void (DynamicUI::*)()>::call(void (DynamicUI::*)(), DynamicUI*, void**)::{lambda()#1}::operator()() const (qobjectdefs_impl.h:127)
+==89322==    by 0x22A938: void QtPrivate::FunctorCallBase::call_internal<void, QtPrivate::FunctorCall<std::integer_sequence<unsigned long>, QtPrivate::List<>, void, void (DynamicUI::*)()>::call(void (DynamicUI::*)(), DynamicUI*, void**)::{lambda()#1}>(void**, QtPrivate::FunctorCall<std::integer_sequence<unsigned long>, QtPrivate::List<>, void, void (DynamicUI::*)()>::call(void (DynamicUI::*)(), DynamicUI*, void**)::{lambda()#1}&&) (qobjectdefs_impl.h:65)
+==89322==    by 0x229D30: QtPrivate::FunctorCall<std::integer_sequence<unsigned long>, QtPrivate::List<>, void, void (DynamicUI::*)()>::call(void (DynamicUI::*)(), DynamicUI*, void**) (qobjectdefs_impl.h:126)
+==89322==    by 0x228B3D: void QtPrivate::FunctionPointer<void (DynamicUI::*)()>::call<QtPrivate::List<>, void>(void (DynamicUI::*)(), DynamicUI*, void**) (qobjectdefs_impl.h:174)
+==89322==    by 0x227D36: QtPrivate::QCallableObject<void (DynamicUI::*)(), QtPrivate::List<>, void>::impl(int, QtPrivate::QSlotObjectBase*, QObject*, void**, bool*) (qobjectdefs_impl.h:545)
+==89322==    by 0x5F24D17: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+==89322==    by 0x4D4E945: QAbstractButton::clicked(bool) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+==89322==    by 0x4D4EBDD: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+==89322==    by 0x4D50965: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+==89322==    by 0x4D50B91: QAbstractButton::mouseReleaseEvent(QMouseEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+==89322==    by 0x4C8369D: QWidget::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+==89322==  Uninitialised value was created by a heap allocation
+==89322==    at 0x4849013: operator new(unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==89322==    by 0x21A729: FileImportWindow::dropEvent(QDropEvent*) (fileimportwindow.cpp:49)
+==89322==    by 0x4C8369D: QWidget::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+==89322==    by 0x4C20BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+==89322==    by 0x4C29F1E: QApplication::notify(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+==89322==    by 0x5EBF309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+==89322==    by 0x4C9965D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+==89322==    by 0x4C9A2AB: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+==89322==    by 0x4C20BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+==89322==    by 0x5EBF309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+==89322==    by 0x5447582: QGuiApplicationPrivate::processDrop(QWindow*, QMimeData const*, QPoint const&, QFlags<Qt::DropAction>, QFlags<Qt::MouseButton>, QFlags<Qt::KeyboardModifier>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+==89322==    by 0x54ACF24: QWindowSystemInterface::handleDrop(QWindow*, QMimeData const*, QPoint const&, QFlags<Qt::DropAction>, QFlags<Qt::MouseButton>, QFlags<Qt::KeyboardModifier>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+==89322== 
+==89322== 
+==89322== HEAP SUMMARY:
+==89322==     in use at exit: 16,590,246 bytes in 66,180 blocks
+==89322==   total heap usage: 1,699,269 allocs, 1,633,089 frees, 426,406,236 bytes allocated
+==89322== 
+==89322== LEAK SUMMARY:
+==89322==    definitely lost: 20,016 bytes in 16 blocks
+==89322==    indirectly lost: 492,354 bytes in 3,072 blocks
+==89322==      possibly lost: 32,947 bytes in 233 blocks
+==89322==    still reachable: 15,593,825 bytes in 59,018 blocks
+==89322==                       of which reachable via heuristic:
+==89322==                         newarray           : 149,848 bytes in 983 blocks
+==89322==                         multipleinheritance: 4,920 bytes in 3 blocks
+==89322==         suppressed: 0 bytes in 0 blocks
+==89322== Rerun with --leak-check=full to see details of leaked memory
+==89322== 
+==89322== For lists of detected and suppressed errors, rerun with: -s
+==89322== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 1013 from 732)

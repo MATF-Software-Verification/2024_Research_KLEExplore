@@ -1,0 +1,50 @@
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr16
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   fun:_ZN9DynamicUI14openPlotWindowEv
+   fun:_ZZN9QtPrivate11FunctorCallISt16integer_sequenceImJEENS_4ListIJEEEvM9DynamicUIFvvEE4callES7_PS5_PPvENKUlvE_clEv
+   fun:_ZN9QtPrivate15FunctorCallBase13call_internalIvZNS_11FunctorCallISt16integer_sequenceImJEENS_4ListIJEEEvM9DynamicUIFvvEE4callES9_PS7_PPvEUlvE_EEvSD_OT0_
+   fun:_ZN9QtPrivate11FunctorCallISt16integer_sequenceImJEENS_4ListIJEEEvM9DynamicUIFvvEE4callES7_PS5_PPv
+   fun:_ZN9QtPrivate15FunctionPointerIM9DynamicUIFvvEE4callINS_4ListIJEEEvEEvS3_PS1_PPv
+   fun:_ZN9QtPrivate15QCallableObjectIM9DynamicUIFvvENS_4ListIJEEEvE4implEiPNS_15QSlotObjectBaseEP7QObjectPPvPb
+   obj:/home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3
+   fun:_ZN15QAbstractButton7clickedEb
+   obj:/home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3
+   obj:/home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3
+   fun:_ZN15QAbstractButton17mouseReleaseEventEP11QMouseEvent
+   fun:_ZN7QWidget5eventEP6QEvent
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr16
+   obj:/home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3
+   obj:/home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3
+   obj:/home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3
+   obj:/home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3
+   fun:_ZN4QCss10StyleSheet12buildIndexesEN2Qt15CaseSensitivityE
+   fun:_ZN4QCss6Parser5parseEPNS_10StyleSheetEN2Qt15CaseSensitivityE
+   obj:/home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3
+   obj:/home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3
+   obj:/home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3
+   obj:/home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3
+   fun:_ZN14QWidgetPrivate20setLayoutItemMarginsEN6QStyle10SubElementEPK12QStyleOption
+   obj:/home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3
+}
