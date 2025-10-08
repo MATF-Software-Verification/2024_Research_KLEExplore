@@ -1,0 +1,2420 @@
+desc: --time-unit=ms --threshold=5.0 --detailed-freq=200 --massif-out-file=./massif_out/massif.out.127729
+cmd: ../../alat-za-analitiku/alatZaAnalitiku/build/Desktop_Qt_6_9_3-Debug/alatZaAnalitiku
+time_unit: ms
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=1089
+mem_heap_B=37
+mem_heap_extra_B=19
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=1271
+mem_heap_B=171322
+mem_heap_extra_B=2582
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=1439
+mem_heap_B=192277
+mem_heap_extra_B=4683
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=1663
+mem_heap_B=254420
+mem_heap_extra_B=8260
+mem_stacks_B=0
+heap_tree=detailed
+n5: 254420 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 80571 in 173 places, all below massif's threshold (5.00%)
+ n1: 72704 0x64FB939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 67280 0x5FE91D8: QArrayData::allocate(QArrayData**, long long, long long, long long, QArrayData::AllocationOption) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+  n1: 65536 0x605CA32: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+   n1: 65536 0x605A6A9: QVariantAnimation::registerInterpolator(QVariant (*)(void const*, void const*, double), int) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+    n1: 65536 0x5840A38: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+     n1: 65536 0x5390F2C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+      n1: 65536 0x400647D: call_init.part.0 (dl-init.c:70)
+       n1: 65536 0x4006567: call_init (dl-init.c:33)
+        n1: 65536 0x4006567: _dl_init (dl-init.c:117)
+         n0: 65536 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  n0: 1744 in 20 places, all below massif's threshold (5.00%)
+ n2: 17441 0x6D44738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n1: 16384 0x6D44B73: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n1: 16384 0x6D04BA8: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n1: 16384 0x400647D: call_init.part.0 (dl-init.c:70)
+     n1: 16384 0x4006567: call_init (dl-init.c:33)
+      n1: 16384 0x4006567: _dl_init (dl-init.c:117)
+       n0: 16384 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  n0: 1057 in 4 places, all below massif's threshold (5.00%)
+ n1: 16424 0xAD10FC0: wl_display_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+  n1: 16424 0xAD1110D: wl_display_connect (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+   n1: 16424 0xAC65A1E: QtWaylandClient::QWaylandDisplay::QWaylandDisplay(QtWaylandClient::QWaylandIntegration*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+    n1: 16424 0xAC85C06: QtWaylandClient::QWaylandIntegration::QWaylandIntegration() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+     n1: 16424 0x644131A: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platforms/libqwayland-generic.so)
+      n1: 16424 0x542E3E0: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+       n1: 16424 0x5431F09: QGuiApplicationPrivate::createPlatformIntegration() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+        n1: 16424 0x5432987: QGuiApplicationPrivate::createEventDispatcher() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+         n1: 16424 0x5EBC965: QCoreApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+          n1: 16424 0x5435C27: QGuiApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+           n1: 16424 0x4C1DA6C: QApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+            n0: 16424 0x185257: main (main.cpp:11)
+#-----------
+snapshot=5
+#-----------
+time=1807
+mem_heap_B=272226
+mem_heap_extra_B=9574
+mem_stacks_B=0
+heap_tree=detailed
+n5: 272226 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 97969 in 225 places, all below massif's threshold (5.00%)
+ n1: 72704 0x64FB939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 67632 0x5FE91D8: QArrayData::allocate(QArrayData**, long long, long long, long long, QArrayData::AllocationOption) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+  n1: 65536 0x605CA32: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+   n1: 65536 0x605A6A9: QVariantAnimation::registerInterpolator(QVariant (*)(void const*, void const*, double), int) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+    n1: 65536 0x5840A38: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+     n1: 65536 0x5390F2C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+      n1: 65536 0x400647D: call_init.part.0 (dl-init.c:70)
+       n1: 65536 0x4006567: call_init (dl-init.c:33)
+        n1: 65536 0x4006567: _dl_init (dl-init.c:117)
+         n0: 65536 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  n0: 2096 in 28 places, all below massif's threshold (5.00%)
+ n2: 17497 0x6D44738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n1: 16384 0x6D44B73: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n1: 16384 0x6D04BA8: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n1: 16384 0x400647D: call_init.part.0 (dl-init.c:70)
+     n1: 16384 0x4006567: call_init (dl-init.c:33)
+      n1: 16384 0x4006567: _dl_init (dl-init.c:117)
+       n0: 16384 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  n0: 1113 in 5 places, all below massif's threshold (5.00%)
+ n1: 16424 0xAD10FC0: wl_display_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+  n1: 16424 0xAD1110D: wl_display_connect (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+   n1: 16424 0xAC65A1E: QtWaylandClient::QWaylandDisplay::QWaylandDisplay(QtWaylandClient::QWaylandIntegration*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+    n1: 16424 0xAC85C06: QtWaylandClient::QWaylandIntegration::QWaylandIntegration() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+     n1: 16424 0x644131A: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platforms/libqwayland-generic.so)
+      n1: 16424 0x542E3E0: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+       n1: 16424 0x5431F09: QGuiApplicationPrivate::createPlatformIntegration() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+        n1: 16424 0x5432987: QGuiApplicationPrivate::createEventDispatcher() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+         n1: 16424 0x5EBC965: QCoreApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+          n1: 16424 0x5435C27: QGuiApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+           n1: 16424 0x4C1DA6C: QApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+            n0: 16424 0x185257: main (main.cpp:11)
+#-----------
+snapshot=6
+#-----------
+time=1989
+mem_heap_B=309009
+mem_heap_extra_B=12943
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=2113
+mem_heap_B=369549
+mem_heap_extra_B=15875
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=2291
+mem_heap_B=444162
+mem_heap_extra_B=21742
+mem_stacks_B=0
+heap_tree=detailed
+n6: 444162 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 188307 in 289 places, all below massif's threshold (5.00%)
+ n1: 72704 0x64FB939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 70480 0x5FE91D8: QArrayData::allocate(QArrayData**, long long, long long, long long, QArrayData::AllocationOption) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+  n1: 65536 0x605CA32: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+   n1: 65536 0x605A6A9: QVariantAnimation::registerInterpolator(QVariant (*)(void const*, void const*, double), int) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+    n1: 65536 0x5840A38: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+     n1: 65536 0x5390F2C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+      n1: 65536 0x400647D: call_init.part.0 (dl-init.c:70)
+       n1: 65536 0x4006567: call_init (dl-init.c:33)
+        n1: 65536 0x4006567: _dl_init (dl-init.c:117)
+         n0: 65536 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  n0: 4944 in 43 places, all below massif's threshold (5.00%)
+ n1: 54579 0x400DA02: calloc (rtld-malloc.h:44)
+  n1: 54579 0x400DA02: _dl_new_object (dl-object.c:92)
+   n1: 54579 0x4008C82: _dl_map_object_from_fd (dl-load.c:1063)
+    n2: 54579 0x400A600: _dl_map_object (dl-load.c:2327)
+     n1: 50781 0x4003494: openaux (dl-deps.c:64)
+      n1: 50781 0x68F8B07: _dl_catch_exception (dl-error-skeleton.c:208)
+       n1: 50781 0x4003C7B: _dl_map_object_deps (dl-deps.c:248)
+        n1: 50781 0x400EA0E: dl_open_worker_begin (dl-open.c:592)
+         n1: 50781 0x68F8B07: _dl_catch_exception (dl-error-skeleton.c:208)
+          n1: 50781 0x400DF99: dl_open_worker (dl-open.c:782)
+           n1: 50781 0x68F8B07: _dl_catch_exception (dl-error-skeleton.c:208)
+            n1: 50781 0x400E34D: _dl_open (dl-open.c:883)
+             n1: 50781 0x681463B: dlopen_doit (dlopen.c:56)
+              n1: 50781 0x68F8B07: _dl_catch_exception (dl-error-skeleton.c:208)
+               n1: 50781 0x68F8BD2: _dl_catch_error (dl-error-skeleton.c:227)
+                n1: 50781 0x681412D: _dlerror_run (dlerror.c:138)
+                 n1: 50781 0x68146C7: dlopen_implementation (dlopen.c:71)
+                  n1: 50781 0x68146C7: dlopen@@GLIBC_2.34 (dlopen.c:81)
+                   n1: 50781 0x61A49F2: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                    n1: 50781 0x619F884: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                     n1: 50781 0x619FC5D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                      n1: 50781 0x61A00AF: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                       n2: 50781 0x5F37910: QFactoryLoader::instance(int) const (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                        n1: 45930 0x547BCB5: QPlatformThemeFactory::create(QString const&, QString const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                         n1: 45930 0x542E829: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                          n1: 45930 0x5431F09: QGuiApplicationPrivate::createPlatformIntegration() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                           n1: 45930 0x5432987: QGuiApplicationPrivate::createEventDispatcher() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                            n1: 45930 0x5EBC965: QCoreApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                             n1: 45930 0x5435C27: QGuiApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                              n1: 45930 0x4C1DA6C: QApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                               n0: 45930 0x185257: main (main.cpp:11)
+                        n0: 4851 in 1 place, below massif's threshold (5.00%)
+     n0: 3798 in 1 place, below massif's threshold (5.00%)
+ n1: 32848 0xAD10FC0: wl_display_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+  n1: 32848 0xAD1110D: wl_display_connect (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+   n0: 32848 in 2 places, all below massif's threshold (5.00%)
+ n1: 25244 0x6D44738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 25244 in 21 places, all below massif's threshold (5.00%)
+#-----------
+snapshot=9
+#-----------
+time=2438
+mem_heap_B=543123
+mem_heap_extra_B=32053
+mem_stacks_B=0
+heap_tree=detailed
+n8: 543123 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 193685 in 292 places, all below massif's threshold (5.00%)
+ n1: 72704 0x64FB939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 70480 0x5FE91D8: QArrayData::allocate(QArrayData**, long long, long long, long long, QArrayData::AllocationOption) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+  n1: 65536 0x605CA32: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+   n1: 65536 0x605A6A9: QVariantAnimation::registerInterpolator(QVariant (*)(void const*, void const*, double), int) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+    n1: 65536 0x5840A38: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+     n1: 65536 0x5390F2C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+      n1: 65536 0x400647D: call_init.part.0 (dl-init.c:70)
+       n1: 65536 0x4006567: call_init (dl-init.c:33)
+        n1: 65536 0x4006567: _dl_init (dl-init.c:117)
+         n0: 65536 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  n0: 4944 in 43 places, all below massif's threshold (5.00%)
+ n1: 54579 0x400DA02: calloc (rtld-malloc.h:44)
+  n1: 54579 0x400DA02: _dl_new_object (dl-object.c:92)
+   n1: 54579 0x4008C82: _dl_map_object_from_fd (dl-load.c:1063)
+    n2: 54579 0x400A600: _dl_map_object (dl-load.c:2327)
+     n1: 50781 0x4003494: openaux (dl-deps.c:64)
+      n1: 50781 0x68F8B07: _dl_catch_exception (dl-error-skeleton.c:208)
+       n1: 50781 0x4003C7B: _dl_map_object_deps (dl-deps.c:248)
+        n1: 50781 0x400EA0E: dl_open_worker_begin (dl-open.c:592)
+         n1: 50781 0x68F8B07: _dl_catch_exception (dl-error-skeleton.c:208)
+          n1: 50781 0x400DF99: dl_open_worker (dl-open.c:782)
+           n1: 50781 0x68F8B07: _dl_catch_exception (dl-error-skeleton.c:208)
+            n1: 50781 0x400E34D: _dl_open (dl-open.c:883)
+             n1: 50781 0x681463B: dlopen_doit (dlopen.c:56)
+              n1: 50781 0x68F8B07: _dl_catch_exception (dl-error-skeleton.c:208)
+               n1: 50781 0x68F8BD2: _dl_catch_error (dl-error-skeleton.c:227)
+                n1: 50781 0x681412D: _dlerror_run (dlerror.c:138)
+                 n1: 50781 0x68146C7: dlopen_implementation (dlopen.c:71)
+                  n1: 50781 0x68146C7: dlopen@@GLIBC_2.34 (dlopen.c:81)
+                   n1: 50781 0x61A49F2: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                    n1: 50781 0x619F884: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                     n1: 50781 0x619FC5D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                      n1: 50781 0x61A00AF: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                       n2: 50781 0x5F37910: QFactoryLoader::instance(int) const (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                        n1: 45930 0x547BCB5: QPlatformThemeFactory::create(QString const&, QString const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                         n1: 45930 0x542E829: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                          n1: 45930 0x5431F09: QGuiApplicationPrivate::createPlatformIntegration() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                           n1: 45930 0x5432987: QGuiApplicationPrivate::createEventDispatcher() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                            n1: 45930 0x5EBC965: QCoreApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                             n1: 45930 0x5435C27: QGuiApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                              n1: 45930 0x4C1DA6C: QApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                               n0: 45930 0x185257: main (main.cpp:11)
+                        n0: 4851 in 1 place, below massif's threshold (5.00%)
+     n0: 3798 in 1 place, below massif's threshold (5.00%)
+ n1: 43871 0x6D44738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 43871 in 27 places, all below massif's threshold (5.00%)
+ n1: 42140 0x6D44C50: g_malloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 42140 in 32 places, all below massif's threshold (5.00%)
+ n1: 32848 0xAD10FC0: wl_display_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+  n1: 32848 0xAD1110D: wl_display_connect (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+   n0: 32848 in 2 places, all below massif's threshold (5.00%)
+ n1: 32816 0x686A30A: __alloc_dir (opendir.c:115)
+  n1: 32816 0x686A30A: opendir_tail (opendir.c:63)
+   n2: 32816 0x686A30A: opendir (opendir.c:86)
+    n1: 32816 0x6D27DFF: g_dir_open (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+     n1: 32816 0xC146C3B: g_io_modules_scan_all_in_directory_with_scope (in /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7200.4)
+      n1: 32816 0xC14C714: ??? (in /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7200.4)
+       n1: 32816 0xC14CD48: ??? (in /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7200.4)
+        n1: 32816 0xC1BBC71: g_settings_backend_get_default (in /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7200.4)
+         n1: 32816 0xC1BDDB2: ??? (in /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7200.4)
+          n1: 32816 0xC2C91DE: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+           n1: 32816 0xC2CA8F7: g_object_new_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+            n1: 32816 0xC2CAE2C: g_object_new (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+             n1: 32816 0xC1BE6F3: g_settings_new_full (in /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7200.4)
+              n1: 32816 0xBE56E3F: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+               n1: 32816 0xBDF568E: gdk_display_manager_open_display (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+                n1: 32816 0xB7E2D1A: gtk_init_check (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                 n1: 32816 0xB7E2D4C: gtk_init (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                  n1: 32816 0xB56738D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platformthemes/libqgtk3.so)
+                   n1: 32816 0xB55FE6C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platformthemes/libqgtk3.so)
+                    n1: 32816 0x547BCD8: QPlatformThemeFactory::create(QString const&, QString const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                     n1: 32816 0x542E829: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                      n1: 32816 0x5431F09: QGuiApplicationPrivate::createPlatformIntegration() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                       n1: 32816 0x5432987: QGuiApplicationPrivate::createEventDispatcher() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                        n1: 32816 0x5EBC965: QCoreApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                         n1: 32816 0x5435C27: QGuiApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                          n1: 32816 0x4C1DA6C: QApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                           n0: 32816 0x185257: main (main.cpp:11)
+    n0: 0 in 1 place, below massif's threshold (5.00%)
+#-----------
+snapshot=10
+#-----------
+time=2631
+mem_heap_B=594502
+mem_heap_extra_B=45746
+mem_stacks_B=0
+heap_tree=detailed
+n8: 594502 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 187643 in 292 places, all below massif's threshold (5.00%)
+ n1: 72704 0x64FB939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 70480 0x5FE91D8: QArrayData::allocate(QArrayData**, long long, long long, long long, QArrayData::AllocationOption) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+  n1: 65536 0x605CA32: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+   n1: 65536 0x605A6A9: QVariantAnimation::registerInterpolator(QVariant (*)(void const*, void const*, double), int) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+    n1: 65536 0x5840A38: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+     n1: 65536 0x5390F2C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+      n1: 65536 0x400647D: call_init.part.0 (dl-init.c:70)
+       n1: 65536 0x4006567: call_init (dl-init.c:33)
+        n1: 65536 0x4006567: _dl_init (dl-init.c:117)
+         n0: 65536 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  n0: 4944 in 43 places, all below massif's threshold (5.00%)
+ n1: 68504 0x6D44C50: g_malloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 68504 in 43 places, all below massif's threshold (5.00%)
+ n2: 67366 0x6D44738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n1: 33880 0x6D5BB74: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n0: 33880 in 45 places, all below massif's threshold (5.00%)
+  n0: 33486 in 34 places, all below massif's threshold (5.00%)
+ n1: 55829 0x400DA02: calloc (rtld-malloc.h:44)
+  n1: 55829 0x400DA02: _dl_new_object (dl-object.c:92)
+   n1: 55829 0x4008C82: _dl_map_object_from_fd (dl-load.c:1063)
+    n2: 55829 0x400A600: _dl_map_object (dl-load.c:2327)
+     n1: 50781 0x4003494: openaux (dl-deps.c:64)
+      n1: 50781 0x68F8B07: _dl_catch_exception (dl-error-skeleton.c:208)
+       n1: 50781 0x4003C7B: _dl_map_object_deps (dl-deps.c:248)
+        n1: 50781 0x400EA0E: dl_open_worker_begin (dl-open.c:592)
+         n1: 50781 0x68F8B07: _dl_catch_exception (dl-error-skeleton.c:208)
+          n1: 50781 0x400DF99: dl_open_worker (dl-open.c:782)
+           n1: 50781 0x68F8B07: _dl_catch_exception (dl-error-skeleton.c:208)
+            n1: 50781 0x400E34D: _dl_open (dl-open.c:883)
+             n1: 50781 0x681463B: dlopen_doit (dlopen.c:56)
+              n1: 50781 0x68F8B07: _dl_catch_exception (dl-error-skeleton.c:208)
+               n1: 50781 0x68F8BD2: _dl_catch_error (dl-error-skeleton.c:227)
+                n1: 50781 0x681412D: _dlerror_run (dlerror.c:138)
+                 n1: 50781 0x68146C7: dlopen_implementation (dlopen.c:71)
+                  n1: 50781 0x68146C7: dlopen@@GLIBC_2.34 (dlopen.c:81)
+                   n1: 50781 0x61A49F2: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                    n1: 50781 0x619F884: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                     n1: 50781 0x619FC5D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                      n1: 50781 0x61A00AF: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                       n2: 50781 0x5F37910: QFactoryLoader::instance(int) const (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                        n1: 45930 0x547BCB5: QPlatformThemeFactory::create(QString const&, QString const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                         n1: 45930 0x542E829: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                          n1: 45930 0x5431F09: QGuiApplicationPrivate::createPlatformIntegration() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                           n1: 45930 0x5432987: QGuiApplicationPrivate::createEventDispatcher() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                            n1: 45930 0x5EBC965: QCoreApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                             n1: 45930 0x5435C27: QGuiApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                              n1: 45930 0x4C1DA6C: QApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                               n0: 45930 0x185257: main (main.cpp:11)
+                        n0: 4851 in 1 place, below massif's threshold (5.00%)
+     n0: 5048 in 1 place, below massif's threshold (5.00%)
+ n1: 39128 0x6D44D7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 39128 in 24 places, all below massif's threshold (5.00%)
+ n1: 32848 0xAD10FC0: wl_display_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+  n1: 32848 0xAD1110D: wl_display_connect (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+   n0: 32848 in 2 places, all below massif's threshold (5.00%)
+#-----------
+snapshot=11
+#-----------
+time=2794
+mem_heap_B=782943
+mem_heap_extra_B=49265
+mem_stacks_B=0
+heap_tree=detailed
+n8: 782943 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 262627 in 305 places, all below massif's threshold (5.00%)
+ n1: 140640 0x6448766: ??? (in /usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.20.0)
+  n1: 140640 0x6448A1B: wl_cursor_theme_load (in /usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.20.0)
+   n1: 140640 0xBE5A0F1: gdk_wayland_display_set_cursor_theme (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+    n1: 140640 0xBE56A38: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+     n1: 140640 0xBE571D0: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+      n1: 140640 0xBDF568E: gdk_display_manager_open_display (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+       n1: 140640 0xB7E2D1A: gtk_init_check (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+        n1: 140640 0xB7E2D4C: gtk_init (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+         n1: 140640 0xB56738D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platformthemes/libqgtk3.so)
+          n1: 140640 0xB55FE6C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platformthemes/libqgtk3.so)
+           n1: 140640 0x547BCD8: QPlatformThemeFactory::create(QString const&, QString const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+            n1: 140640 0x542E829: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+             n1: 140640 0x5431F09: QGuiApplicationPrivate::createPlatformIntegration() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+              n1: 140640 0x5432987: QGuiApplicationPrivate::createEventDispatcher() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+               n1: 140640 0x5EBC965: QCoreApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                n1: 140640 0x5435C27: QGuiApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                 n1: 140640 0x4C1DA6C: QApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                  n0: 140640 0x185257: main (main.cpp:11)
+ n1: 72704 0x64FB939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 70480 0x5FE91D8: QArrayData::allocate(QArrayData**, long long, long long, long long, QArrayData::AllocationOption) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+  n1: 65536 0x605CA32: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+   n1: 65536 0x605A6A9: QVariantAnimation::registerInterpolator(QVariant (*)(void const*, void const*, double), int) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+    n1: 65536 0x5840A38: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+     n1: 65536 0x5390F2C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+      n1: 65536 0x400647D: call_init.part.0 (dl-init.c:70)
+       n1: 65536 0x4006567: call_init (dl-init.c:33)
+        n1: 65536 0x4006567: _dl_init (dl-init.c:117)
+         n0: 65536 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  n0: 4944 in 43 places, all below massif's threshold (5.00%)
+ n1: 70440 0x6D44C50: g_malloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 70440 in 46 places, all below massif's threshold (5.00%)
+ n1: 65511 0x6D44738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 65511 in 41 places, all below massif's threshold (5.00%)
+ n1: 55829 0x400DA02: calloc (rtld-malloc.h:44)
+  n1: 55829 0x400DA02: _dl_new_object (dl-object.c:92)
+   n1: 55829 0x4008C82: _dl_map_object_from_fd (dl-load.c:1063)
+    n2: 55829 0x400A600: _dl_map_object (dl-load.c:2327)
+     n1: 50781 0x4003494: openaux (dl-deps.c:64)
+      n1: 50781 0x68F8B07: _dl_catch_exception (dl-error-skeleton.c:208)
+       n1: 50781 0x4003C7B: _dl_map_object_deps (dl-deps.c:248)
+        n1: 50781 0x400EA0E: dl_open_worker_begin (dl-open.c:592)
+         n1: 50781 0x68F8B07: _dl_catch_exception (dl-error-skeleton.c:208)
+          n1: 50781 0x400DF99: dl_open_worker (dl-open.c:782)
+           n1: 50781 0x68F8B07: _dl_catch_exception (dl-error-skeleton.c:208)
+            n1: 50781 0x400E34D: _dl_open (dl-open.c:883)
+             n1: 50781 0x681463B: dlopen_doit (dlopen.c:56)
+              n1: 50781 0x68F8B07: _dl_catch_exception (dl-error-skeleton.c:208)
+               n1: 50781 0x68F8BD2: _dl_catch_error (dl-error-skeleton.c:227)
+                n1: 50781 0x681412D: _dlerror_run (dlerror.c:138)
+                 n1: 50781 0x68146C7: dlopen_implementation (dlopen.c:71)
+                  n1: 50781 0x68146C7: dlopen@@GLIBC_2.34 (dlopen.c:81)
+                   n1: 50781 0x61A49F2: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                    n1: 50781 0x619F884: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                     n1: 50781 0x619FC5D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                      n1: 50781 0x61A00AF: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                       n2: 50781 0x5F37910: QFactoryLoader::instance(int) const (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                        n1: 45930 0x547BCB5: QPlatformThemeFactory::create(QString const&, QString const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                         n1: 45930 0x542E829: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                          n1: 45930 0x5431F09: QGuiApplicationPrivate::createPlatformIntegration() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                           n1: 45930 0x5432987: QGuiApplicationPrivate::createEventDispatcher() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                            n1: 45930 0x5EBC965: QCoreApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                             n1: 45930 0x5435C27: QGuiApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                              n1: 45930 0x4C1DA6C: QApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                               n0: 45930 0x185257: main (main.cpp:11)
+                        n0: 4851 in 1 place, below massif's threshold (5.00%)
+     n0: 5048 in 1 place, below massif's threshold (5.00%)
+ n1: 44712 0x6D44D7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 44712 in 27 places, all below massif's threshold (5.00%)
+#-----------
+snapshot=12
+#-----------
+time=2920
+mem_heap_B=821250
+mem_heap_extra_B=58438
+mem_stacks_B=0
+heap_tree=detailed
+n8: 821250 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 300934 in 306 places, all below massif's threshold (5.00%)
+ n1: 140640 0x6448766: ??? (in /usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.20.0)
+  n1: 140640 0x6448A1B: wl_cursor_theme_load (in /usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.20.0)
+   n1: 140640 0xBE5A0F1: gdk_wayland_display_set_cursor_theme (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+    n1: 140640 0xBE56A38: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+     n1: 140640 0xBE571D0: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+      n1: 140640 0xBDF568E: gdk_display_manager_open_display (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+       n1: 140640 0xB7E2D1A: gtk_init_check (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+        n1: 140640 0xB7E2D4C: gtk_init (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+         n1: 140640 0xB56738D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platformthemes/libqgtk3.so)
+          n1: 140640 0xB55FE6C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platformthemes/libqgtk3.so)
+           n1: 140640 0x547BCD8: QPlatformThemeFactory::create(QString const&, QString const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+            n1: 140640 0x542E829: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+             n1: 140640 0x5431F09: QGuiApplicationPrivate::createPlatformIntegration() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+              n1: 140640 0x5432987: QGuiApplicationPrivate::createEventDispatcher() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+               n1: 140640 0x5EBC965: QCoreApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                n1: 140640 0x5435C27: QGuiApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                 n1: 140640 0x4C1DA6C: QApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                  n0: 140640 0x185257: main (main.cpp:11)
+ n1: 72704 0x64FB939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 70480 0x5FE91D8: QArrayData::allocate(QArrayData**, long long, long long, long long, QArrayData::AllocationOption) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+  n1: 65536 0x605CA32: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+   n1: 65536 0x605A6A9: QVariantAnimation::registerInterpolator(QVariant (*)(void const*, void const*, double), int) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+    n1: 65536 0x5840A38: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+     n1: 65536 0x5390F2C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+      n1: 65536 0x400647D: call_init.part.0 (dl-init.c:70)
+       n1: 65536 0x4006567: call_init (dl-init.c:33)
+        n1: 65536 0x4006567: _dl_init (dl-init.c:117)
+         n0: 65536 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  n0: 4944 in 43 places, all below massif's threshold (5.00%)
+ n1: 70440 0x6D44C50: g_malloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 70440 in 46 places, all below massif's threshold (5.00%)
+ n1: 65511 0x6D44738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 65511 in 41 places, all below massif's threshold (5.00%)
+ n1: 55829 0x400DA02: calloc (rtld-malloc.h:44)
+  n1: 55829 0x400DA02: _dl_new_object (dl-object.c:92)
+   n1: 55829 0x4008C82: _dl_map_object_from_fd (dl-load.c:1063)
+    n2: 55829 0x400A600: _dl_map_object (dl-load.c:2327)
+     n1: 50781 0x4003494: openaux (dl-deps.c:64)
+      n1: 50781 0x68F8B07: _dl_catch_exception (dl-error-skeleton.c:208)
+       n1: 50781 0x4003C7B: _dl_map_object_deps (dl-deps.c:248)
+        n1: 50781 0x400EA0E: dl_open_worker_begin (dl-open.c:592)
+         n1: 50781 0x68F8B07: _dl_catch_exception (dl-error-skeleton.c:208)
+          n1: 50781 0x400DF99: dl_open_worker (dl-open.c:782)
+           n1: 50781 0x68F8B07: _dl_catch_exception (dl-error-skeleton.c:208)
+            n1: 50781 0x400E34D: _dl_open (dl-open.c:883)
+             n1: 50781 0x681463B: dlopen_doit (dlopen.c:56)
+              n1: 50781 0x68F8B07: _dl_catch_exception (dl-error-skeleton.c:208)
+               n1: 50781 0x68F8BD2: _dl_catch_error (dl-error-skeleton.c:227)
+                n1: 50781 0x681412D: _dlerror_run (dlerror.c:138)
+                 n1: 50781 0x68146C7: dlopen_implementation (dlopen.c:71)
+                  n1: 50781 0x68146C7: dlopen@@GLIBC_2.34 (dlopen.c:81)
+                   n1: 50781 0x61A49F2: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                    n1: 50781 0x619F884: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                     n1: 50781 0x619FC5D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                      n1: 50781 0x61A00AF: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                       n2: 50781 0x5F37910: QFactoryLoader::instance(int) const (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                        n1: 45930 0x547BCB5: QPlatformThemeFactory::create(QString const&, QString const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                         n1: 45930 0x542E829: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                          n1: 45930 0x5431F09: QGuiApplicationPrivate::createPlatformIntegration() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                           n1: 45930 0x5432987: QGuiApplicationPrivate::createEventDispatcher() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                            n1: 45930 0x5EBC965: QCoreApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                             n1: 45930 0x5435C27: QGuiApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                              n1: 45930 0x4C1DA6C: QApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                               n0: 45930 0x185257: main (main.cpp:11)
+                        n0: 4851 in 1 place, below massif's threshold (5.00%)
+     n0: 5048 in 1 place, below massif's threshold (5.00%)
+ n1: 44712 0x6D44D7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 44712 in 27 places, all below massif's threshold (5.00%)
+#-----------
+snapshot=13
+#-----------
+time=3195
+mem_heap_B=929855
+mem_heap_extra_B=105777
+mem_stacks_B=0
+heap_tree=detailed
+n8: 929855 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 480715 in 379 places, all below massif's threshold (5.00%)
+ n1: 72704 0x64FB939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 72552 0x6D44C50: g_malloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 72552 in 46 places, all below massif's threshold (5.00%)
+ n2: 70480 0x5FE91D8: QArrayData::allocate(QArrayData**, long long, long long, long long, QArrayData::AllocationOption) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+  n1: 65536 0x605CA32: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+   n1: 65536 0x605A6A9: QVariantAnimation::registerInterpolator(QVariant (*)(void const*, void const*, double), int) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+    n1: 65536 0x5840A38: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+     n1: 65536 0x5390F2C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+      n1: 65536 0x400647D: call_init.part.0 (dl-init.c:70)
+       n1: 65536 0x4006567: call_init (dl-init.c:33)
+        n1: 65536 0x4006567: _dl_init (dl-init.c:117)
+         n0: 65536 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  n0: 4944 in 43 places, all below massif's threshold (5.00%)
+ n1: 67111 0x6D44738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 67111 in 41 places, all below massif's threshold (5.00%)
+ n1: 57344 0x6B0F8E3: ??? (in /usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0)
+  n0: 57344 in 2 places, all below massif's threshold (5.00%)
+ n1: 55829 0x400DA02: calloc (rtld-malloc.h:44)
+  n1: 55829 0x400DA02: _dl_new_object (dl-object.c:92)
+   n1: 55829 0x4008C82: _dl_map_object_from_fd (dl-load.c:1063)
+    n1: 55829 0x400A600: _dl_map_object (dl-load.c:2327)
+     n0: 55829 in 2 places, all below massif's threshold (5.00%)
+ n1: 53120 0x6B10529: ??? (in /usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0)
+  n1: 53120 0x6B13D42: ??? (in /usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0)
+   n1: 53120 0x6B14841: ??? (in /usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0)
+    n1: 53120 0x6B13E8A: ??? (in /usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0)
+     n0: 53120 in 2 places, all below massif's threshold (5.00%)
+#-----------
+snapshot=14
+#-----------
+time=3370
+mem_heap_B=967690
+mem_heap_extra_B=112182
+mem_stacks_B=0
+heap_tree=detailed
+n7: 967690 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 440987 in 384 places, all below massif's threshold (5.00%)
+ n2: 132094 0x6D44738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n1: 70144 0x6D5BB74: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n0: 70144 in 57 places, all below massif's threshold (5.00%)
+  n0: 61950 in 49 places, all below massif's threshold (5.00%)
+ n1: 112904 0x6D44C50: g_malloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 112904 in 53 places, all below massif's threshold (5.00%)
+ n1: 82692 0x6D44D7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 82692 in 29 places, all below massif's threshold (5.00%)
+ n1: 72704 0x64FB939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 70480 0x5FE91D8: QArrayData::allocate(QArrayData**, long long, long long, long long, QArrayData::AllocationOption) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+  n1: 65536 0x605CA32: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+   n1: 65536 0x605A6A9: QVariantAnimation::registerInterpolator(QVariant (*)(void const*, void const*, double), int) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+    n1: 65536 0x5840A38: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+     n1: 65536 0x5390F2C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+      n1: 65536 0x400647D: call_init.part.0 (dl-init.c:70)
+       n1: 65536 0x4006567: call_init (dl-init.c:33)
+        n1: 65536 0x4006567: _dl_init (dl-init.c:117)
+         n0: 65536 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  n0: 4944 in 43 places, all below massif's threshold (5.00%)
+ n1: 55829 0x400DA02: calloc (rtld-malloc.h:44)
+  n1: 55829 0x400DA02: _dl_new_object (dl-object.c:92)
+   n1: 55829 0x4008C82: _dl_map_object_from_fd (dl-load.c:1063)
+    n1: 55829 0x400A600: _dl_map_object (dl-load.c:2327)
+     n0: 55829 in 2 places, all below massif's threshold (5.00%)
+#-----------
+snapshot=15
+#-----------
+time=3625
+mem_heap_B=1083455
+mem_heap_extra_B=130601
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=3844
+mem_heap_B=1507158
+mem_heap_extra_B=189122
+mem_stacks_B=0
+heap_tree=detailed
+n4: 1507158 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 659308 in 388 places, all below massif's threshold (5.00%)
+ n2: 415692 0x6D44D7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 269988 in 39 places, all below massif's threshold (5.00%)
+  n1: 145704 0xB733852: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+   n0: 145704 in 10 places, all below massif's threshold (5.00%)
+ n2: 290746 0x6D44738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n2: 216032 0x6D5BB74: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n1: 187640 0x6D5C1DD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n0: 187640 in 59 places, all below massif's threshold (5.00%)
+   n0: 28392 in 71 places, all below massif's threshold (5.00%)
+  n0: 74714 in 69 places, all below massif's threshold (5.00%)
+ n1: 141412 0x6D44C50: g_malloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 141412 in 70 places, all below massif's threshold (5.00%)
+#-----------
+snapshot=17
+#-----------
+time=4033
+mem_heap_B=2000150
+mem_heap_extra_B=268034
+mem_stacks_B=0
+heap_tree=detailed
+n4: 2000150 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 747344 0x6D44D7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n2: 303352 0xB733852: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+   n0: 154120 in 11 places, all below massif's threshold (5.00%)
+   n2: 149232 0xB7344E3: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+    n1: 145632 0xB72C5CA: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+     n1: 145632 0xB72CA74: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+      n1: 145632 0xB7389DA: gtk_css_provider_load_from_file (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+       n1: 145632 0xB738A86: gtk_css_provider_load_from_path (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+        n1: 145632 0xB738D21: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+         n1: 145632 0xB876B19: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+          n1: 145632 0xB87B1A7: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+           n1: 145632 0xB804A37: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+            n1: 145632 0xC2B7744: g_cclosure_marshal_VOID__OBJECTv (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+             n1: 145632 0xC2D66FF: g_signal_emit_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+              n1: 145632 0xC2D6862: g_signal_emit (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+               n1: 145632 0xC2D66FF: g_signal_emit_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+                n1: 145632 0xC2D6A8D: g_signal_emit_by_name (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+                 n1: 145632 0xBE571C2: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+                  n1: 145632 0xBDF568E: gdk_display_manager_open_display (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+                   n1: 145632 0xB7E2D1A: gtk_init_check (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                    n1: 145632 0xB7E2D4C: gtk_init (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                     n1: 145632 0xB56738D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platformthemes/libqgtk3.so)
+                      n1: 145632 0xB55FE6C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platformthemes/libqgtk3.so)
+                       n1: 145632 0x547BCD8: QPlatformThemeFactory::create(QString const&, QString const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                        n1: 145632 0x542E829: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                         n1: 145632 0x5431F09: QGuiApplicationPrivate::createPlatformIntegration() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                          n1: 145632 0x5432987: QGuiApplicationPrivate::createEventDispatcher() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                           n1: 145632 0x5EBC965: QCoreApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                            n1: 145632 0x5435C27: QGuiApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                             n1: 145632 0x4C1DA6C: QApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                              n0: 145632 0x185257: main (main.cpp:11)
+    n0: 3600 in 1 place, below massif's threshold (5.00%)
+  n1: 154320 0xB725600: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+   n0: 154320 in 2 places, all below massif's threshold (5.00%)
+  n2: 149600 0x6D09FF8: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n2: 132864 0x6D0A39C: g_array_append_vals (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n1: 131072 0xB72CC97: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+     n1: 131072 0xB72CA74: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+      n1: 131072 0xB7389DA: gtk_css_provider_load_from_file (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+       n1: 131072 0xB738A86: gtk_css_provider_load_from_path (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+        n1: 131072 0xB738D21: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+         n1: 131072 0xB876B19: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+          n1: 131072 0xB87B1A7: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+           n1: 131072 0xB804A37: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+            n1: 131072 0xC2B7744: g_cclosure_marshal_VOID__OBJECTv (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+             n1: 131072 0xC2D66FF: g_signal_emit_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+              n1: 131072 0xC2D6862: g_signal_emit (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+               n1: 131072 0xC2D66FF: g_signal_emit_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+                n1: 131072 0xC2D6A8D: g_signal_emit_by_name (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+                 n1: 131072 0xBE571C2: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+                  n1: 131072 0xBDF568E: gdk_display_manager_open_display (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+                   n1: 131072 0xB7E2D1A: gtk_init_check (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                    n1: 131072 0xB7E2D4C: gtk_init (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                     n1: 131072 0xB56738D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platformthemes/libqgtk3.so)
+                      n1: 131072 0xB55FE6C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platformthemes/libqgtk3.so)
+                       n1: 131072 0x547BCD8: QPlatformThemeFactory::create(QString const&, QString const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                        n1: 131072 0x542E829: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                         n1: 131072 0x5431F09: QGuiApplicationPrivate::createPlatformIntegration() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                          n1: 131072 0x5432987: QGuiApplicationPrivate::createEventDispatcher() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                           n1: 131072 0x5EBC965: QCoreApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                            n1: 131072 0x5435C27: QGuiApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                             n1: 131072 0x4C1DA6C: QApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                              n0: 131072 0x185257: main (main.cpp:11)
+    n0: 1792 in 7 places, all below massif's threshold (5.00%)
+   n0: 16736 in 4 places, all below massif's threshold (5.00%)
+  n0: 140072 in 39 places, all below massif's threshold (5.00%)
+ n0: 659308 in 388 places, all below massif's threshold (5.00%)
+ n2: 450702 0x6D44738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n2: 366616 0x6D5BB74: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n1: 337248 0x6D5C1DD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n0: 337248 in 66 places, all below massif's threshold (5.00%)
+   n0: 29368 in 71 places, all below massif's threshold (5.00%)
+  n0: 84086 in 69 places, all below massif's threshold (5.00%)
+ n1: 142796 0x6D44C50: g_malloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 142796 in 70 places, all below massif's threshold (5.00%)
+#-----------
+snapshot=18
+#-----------
+time=4156
+mem_heap_B=2481807
+mem_heap_extra_B=310313
+mem_stacks_B=0
+heap_tree=detailed
+n4: 2481807 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 1158512 0x6D44D7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n2: 532392 0xB733852: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+   n2: 328880 0xB7344E3: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+    n1: 320832 0xB72C5CA: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+     n1: 320832 0xB72CA74: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+      n1: 320832 0xB7389DA: gtk_css_provider_load_from_file (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+       n1: 320832 0xB738A86: gtk_css_provider_load_from_path (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+        n1: 320832 0xB738D21: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+         n1: 320832 0xB876B19: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+          n1: 320832 0xB87B1A7: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+           n1: 320832 0xB804A37: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+            n1: 320832 0xC2B7744: g_cclosure_marshal_VOID__OBJECTv (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+             n1: 320832 0xC2D66FF: g_signal_emit_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+              n1: 320832 0xC2D6862: g_signal_emit (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+               n1: 320832 0xC2D66FF: g_signal_emit_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+                n1: 320832 0xC2D6A8D: g_signal_emit_by_name (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+                 n1: 320832 0xBE571C2: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+                  n1: 320832 0xBDF568E: gdk_display_manager_open_display (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+                   n1: 320832 0xB7E2D1A: gtk_init_check (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                    n1: 320832 0xB7E2D4C: gtk_init (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                     n1: 320832 0xB56738D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platformthemes/libqgtk3.so)
+                      n1: 320832 0xB55FE6C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platformthemes/libqgtk3.so)
+                       n1: 320832 0x547BCD8: QPlatformThemeFactory::create(QString const&, QString const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                        n1: 320832 0x542E829: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                         n1: 320832 0x5431F09: QGuiApplicationPrivate::createPlatformIntegration() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                          n1: 320832 0x5432987: QGuiApplicationPrivate::createEventDispatcher() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                           n1: 320832 0x5EBC965: QCoreApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                            n1: 320832 0x5435C27: QGuiApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                             n1: 320832 0x4C1DA6C: QApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                              n0: 320832 0x185257: main (main.cpp:11)
+    n0: 8048 in 1 place, below massif's threshold (5.00%)
+   n0: 203512 in 11 places, all below massif's threshold (5.00%)
+  n2: 281936 0x6D09FF8: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n2: 265200 0x6D0A39C: g_array_append_vals (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n1: 262144 0xB72CC97: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+     n1: 262144 0xB72CA74: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+      n1: 262144 0xB7389DA: gtk_css_provider_load_from_file (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+       n1: 262144 0xB738A86: gtk_css_provider_load_from_path (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+        n1: 262144 0xB738D21: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+         n1: 262144 0xB876B19: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+          n1: 262144 0xB87B1A7: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+           n1: 262144 0xB804A37: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+            n1: 262144 0xC2B7744: g_cclosure_marshal_VOID__OBJECTv (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+             n1: 262144 0xC2D66FF: g_signal_emit_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+              n1: 262144 0xC2D6862: g_signal_emit (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+               n1: 262144 0xC2D66FF: g_signal_emit_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+                n1: 262144 0xC2D6A8D: g_signal_emit_by_name (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+                 n1: 262144 0xBE571C2: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+                  n1: 262144 0xBDF568E: gdk_display_manager_open_display (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+                   n1: 262144 0xB7E2D1A: gtk_init_check (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                    n1: 262144 0xB7E2D4C: gtk_init (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                     n1: 262144 0xB56738D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platformthemes/libqgtk3.so)
+                      n1: 262144 0xB55FE6C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platformthemes/libqgtk3.so)
+                       n1: 262144 0x547BCD8: QPlatformThemeFactory::create(QString const&, QString const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                        n1: 262144 0x542E829: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                         n1: 262144 0x5431F09: QGuiApplicationPrivate::createPlatformIntegration() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                          n1: 262144 0x5432987: QGuiApplicationPrivate::createEventDispatcher() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                           n1: 262144 0x5EBC965: QCoreApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                            n1: 262144 0x5435C27: QGuiApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                             n1: 262144 0x4C1DA6C: QApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                              n0: 262144 0x185257: main (main.cpp:11)
+    n0: 3056 in 7 places, all below massif's threshold (5.00%)
+   n0: 16736 in 4 places, all below massif's threshold (5.00%)
+  n1: 194184 0xB725600: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+   n0: 194184 in 2 places, all below massif's threshold (5.00%)
+  n0: 150000 in 39 places, all below massif's threshold (5.00%)
+ n0: 659308 in 388 places, all below massif's threshold (5.00%)
+ n2: 521167 0x6D44738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n2: 436968 0x6D5BB74: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n1: 405008 0x6D5C1DD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n0: 405008 in 67 places, all below massif's threshold (5.00%)
+   n0: 31960 in 71 places, all below massif's threshold (5.00%)
+  n0: 84199 in 69 places, all below massif's threshold (5.00%)
+ n1: 142820 0x6D44C50: g_malloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 142820 in 70 places, all below massif's threshold (5.00%)
+#-----------
+snapshot=19
+#-----------
+time=4325
+mem_heap_B=2933584
+mem_heap_extra_B=502272
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=4451
+mem_heap_B=3196968
+mem_heap_extra_B=595264
+mem_stacks_B=0
+heap_tree=detailed
+n4: 3196968 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 1443152 0x6D44D7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n2: 537112 0xB733852: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+   n2: 331384 0xB7344E3: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+    n1: 323336 0xB72C5CA: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+     n1: 323336 0xB72CA74: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+      n1: 323336 0xB7389DA: gtk_css_provider_load_from_file (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+       n1: 323336 0xB738A86: gtk_css_provider_load_from_path (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+        n1: 323336 0xB738D21: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+         n1: 323336 0xB876B19: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+          n1: 323336 0xB87B1A7: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+           n1: 323336 0xB804A37: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+            n1: 323336 0xC2B7744: g_cclosure_marshal_VOID__OBJECTv (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+             n1: 323336 0xC2D66FF: g_signal_emit_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+              n1: 323336 0xC2D6862: g_signal_emit (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+               n1: 323336 0xC2D66FF: g_signal_emit_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+                n1: 323336 0xC2D6A8D: g_signal_emit_by_name (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+                 n1: 323336 0xBE571C2: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+                  n1: 323336 0xBDF568E: gdk_display_manager_open_display (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+                   n1: 323336 0xB7E2D1A: gtk_init_check (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                    n1: 323336 0xB7E2D4C: gtk_init (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                     n1: 323336 0xB56738D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platformthemes/libqgtk3.so)
+                      n1: 323336 0xB55FE6C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platformthemes/libqgtk3.so)
+                       n1: 323336 0x547BCD8: QPlatformThemeFactory::create(QString const&, QString const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                        n1: 323336 0x542E829: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                         n1: 323336 0x5431F09: QGuiApplicationPrivate::createPlatformIntegration() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                          n1: 323336 0x5432987: QGuiApplicationPrivate::createEventDispatcher() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                           n1: 323336 0x5EBC965: QCoreApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                            n1: 323336 0x5435C27: QGuiApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                             n1: 323336 0x4C1DA6C: QApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                              n0: 323336 0x185257: main (main.cpp:11)
+    n0: 8048 in 1 place, below massif's threshold (5.00%)
+   n0: 205728 in 11 places, all below massif's threshold (5.00%)
+  n2: 413184 0x6D09FF8: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n2: 396448 0x6D0A39C: g_array_append_vals (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n1: 262144 0xB72CC97: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+     n1: 262144 0xB72CA74: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+      n1: 262144 0xB7389DA: gtk_css_provider_load_from_file (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+       n1: 262144 0xB738A86: gtk_css_provider_load_from_path (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+        n1: 262144 0xB738D21: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+         n1: 262144 0xB876B19: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+          n1: 262144 0xB87B1A7: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+           n1: 262144 0xB804A37: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+            n1: 262144 0xC2B7744: g_cclosure_marshal_VOID__OBJECTv (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+             n1: 262144 0xC2D66FF: g_signal_emit_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+              n1: 262144 0xC2D6862: g_signal_emit (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+               n1: 262144 0xC2D66FF: g_signal_emit_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+                n1: 262144 0xC2D6A8D: g_signal_emit_by_name (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+                 n1: 262144 0xBE571C2: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+                  n1: 262144 0xBDF568E: gdk_display_manager_open_display (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+                   n1: 262144 0xB7E2D1A: gtk_init_check (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                    n1: 262144 0xB7E2D4C: gtk_init (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                     n1: 262144 0xB56738D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platformthemes/libqgtk3.so)
+                      n1: 262144 0xB55FE6C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platformthemes/libqgtk3.so)
+                       n1: 262144 0x547BCD8: QPlatformThemeFactory::create(QString const&, QString const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                        n1: 262144 0x542E829: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                         n1: 262144 0x5431F09: QGuiApplicationPrivate::createPlatformIntegration() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                          n1: 262144 0x5432987: QGuiApplicationPrivate::createEventDispatcher() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                           n1: 262144 0x5EBC965: QCoreApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                            n1: 262144 0x5435C27: QGuiApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                             n1: 262144 0x4C1DA6C: QApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                              n0: 262144 0x185257: main (main.cpp:11)
+    n0: 134304 in 8 places, all below massif's threshold (5.00%)
+   n0: 16736 in 4 places, all below massif's threshold (5.00%)
+  n0: 294976 in 39 places, all below massif's threshold (5.00%)
+  n1: 197880 0xB725600: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+   n0: 197880 in 2 places, all below massif's threshold (5.00%)
+ n2: 868216 0x6D44738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n3: 784056 0x6D5BB74: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n1: 409744 0x6D5C1DD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n0: 409744 in 67 places, all below massif's threshold (5.00%)
+   n2: 337584 0x6D361E9: g_list_prepend (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n1: 214680 0xB7340A2: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+     n0: 214680 in 3 places, all below massif's threshold (5.00%)
+    n0: 122904 in 18 places, all below massif's threshold (5.00%)
+   n0: 36728 in 70 places, all below massif's threshold (5.00%)
+  n0: 84160 in 70 places, all below massif's threshold (5.00%)
+ n0: 659308 in 388 places, all below massif's threshold (5.00%)
+ n1: 226292 0x6D44C50: g_malloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 226292 in 72 places, all below massif's threshold (5.00%)
+#-----------
+snapshot=21
+#-----------
+time=4603
+mem_heap_B=3173528
+mem_heap_extra_B=568752
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=4805
+mem_heap_B=4019592
+mem_heap_extra_B=849632
+mem_stacks_B=0
+heap_tree=detailed
+n3: 4019592 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 1886288 0x6D44D7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n2: 806400 0x6D09FF8: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n3: 789664 0x6D0A39C: g_array_append_vals (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n1: 524288 0x6D0A42D: g_byte_array_append (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+     n2: 524288 0xB734015: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+      n2: 524288 0xB73411F: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+       n2: 524288 0xB73411F: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+        n2: 524288 0xB73411F: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+         n2: 524288 0xB73411F: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+          n1: 524288 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+           n1: 524288 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+            n1: 524288 0xB73411F: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+             n1: 524288 0xB73411F: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+              n2: 524288 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+               n1: 524288 0xB73411F: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                n1: 524288 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                 n1: 524288 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                  n1: 524288 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                   n1: 524288 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                    n1: 524288 0xB73411F: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                     n1: 524288 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                      n1: 524288 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                       n1: 524288 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                        n1: 524288 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                         n1: 524288 0xB72D9CB: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                          n1: 524288 0xB7389DA: gtk_css_provider_load_from_file (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                           n1: 524288 0xB738A86: gtk_css_provider_load_from_path (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                            n1: 524288 0xB738D21: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                             n1: 524288 0xB876B19: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                              n0: 524288 0xB87B1A7: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+               n0: 0 in 1 place, below massif's threshold (5.00%)
+          n0: 0 in 1 place, below massif's threshold (5.00%)
+         n0: 0 in 2 places, all below massif's threshold (5.00%)
+        n0: 0 in 1 place, below massif's threshold (5.00%)
+       n0: 0 in 2 places, all below massif's threshold (5.00%)
+      n0: 0 in 2 places, all below massif's threshold (5.00%)
+    n1: 262144 0xB72CC97: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+     n1: 262144 0xB72CA74: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+      n1: 262144 0xB7389DA: gtk_css_provider_load_from_file (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+       n1: 262144 0xB738A86: gtk_css_provider_load_from_path (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+        n1: 262144 0xB738D21: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+         n1: 262144 0xB876B19: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+          n1: 262144 0xB87B1A7: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+           n1: 262144 0xB804A37: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+            n1: 262144 0xC2B7744: g_cclosure_marshal_VOID__OBJECTv (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+             n1: 262144 0xC2D66FF: g_signal_emit_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+              n1: 262144 0xC2D6862: g_signal_emit (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+               n1: 262144 0xC2D66FF: g_signal_emit_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+                n1: 262144 0xC2D6A8D: g_signal_emit_by_name (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+                 n1: 262144 0xBE571C2: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+                  n1: 262144 0xBDF568E: gdk_display_manager_open_display (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+                   n1: 262144 0xB7E2D1A: gtk_init_check (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                    n1: 262144 0xB7E2D4C: gtk_init (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                     n1: 262144 0xB56738D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platformthemes/libqgtk3.so)
+                      n1: 262144 0xB55FE6C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platformthemes/libqgtk3.so)
+                       n1: 262144 0x547BCD8: QPlatformThemeFactory::create(QString const&, QString const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                        n1: 262144 0x542E829: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                         n1: 262144 0x5431F09: QGuiApplicationPrivate::createPlatformIntegration() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                          n1: 262144 0x5432987: QGuiApplicationPrivate::createEventDispatcher() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                           n1: 262144 0x5EBC965: QCoreApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                            n1: 262144 0x5435C27: QGuiApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                             n1: 262144 0x4C1DA6C: QApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                              n0: 262144 0x185257: main (main.cpp:11)
+    n0: 3232 in 7 places, all below massif's threshold (5.00%)
+   n0: 16736 in 4 places, all below massif's threshold (5.00%)
+  n0: 542776 in 40 places, all below massif's threshold (5.00%)
+  n2: 537112 0xB733852: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+   n2: 331384 0xB7344E3: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+    n1: 323336 0xB72C5CA: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+     n1: 323336 0xB72CA74: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+      n1: 323336 0xB7389DA: gtk_css_provider_load_from_file (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+       n1: 323336 0xB738A86: gtk_css_provider_load_from_path (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+        n1: 323336 0xB738D21: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+         n1: 323336 0xB876B19: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+          n1: 323336 0xB87B1A7: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+           n1: 323336 0xB804A37: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+            n1: 323336 0xC2B7744: g_cclosure_marshal_VOID__OBJECTv (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+             n1: 323336 0xC2D66FF: g_signal_emit_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+              n1: 323336 0xC2D6862: g_signal_emit (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+               n1: 323336 0xC2D66FF: g_signal_emit_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+                n1: 323336 0xC2D6A8D: g_signal_emit_by_name (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+                 n1: 323336 0xBE571C2: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+                  n1: 323336 0xBDF568E: gdk_display_manager_open_display (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+                   n1: 323336 0xB7E2D1A: gtk_init_check (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                    n1: 323336 0xB7E2D4C: gtk_init (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                     n1: 323336 0xB56738D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platformthemes/libqgtk3.so)
+                      n1: 323336 0xB55FE6C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platformthemes/libqgtk3.so)
+                       n1: 323336 0x547BCD8: QPlatformThemeFactory::create(QString const&, QString const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                        n1: 323336 0x542E829: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                         n1: 323336 0x5431F09: QGuiApplicationPrivate::createPlatformIntegration() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                          n1: 323336 0x5432987: QGuiApplicationPrivate::createEventDispatcher() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                           n1: 323336 0x5EBC965: QCoreApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                            n1: 323336 0x5435C27: QGuiApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                             n1: 323336 0x4C1DA6C: QApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                              n0: 323336 0x185257: main (main.cpp:11)
+    n0: 8048 in 1 place, below massif's threshold (5.00%)
+   n0: 205728 in 11 places, all below massif's threshold (5.00%)
+ n2: 1247704 0x6D44738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n3: 1163544 0x6D5BB74: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n2: 721200 0x6D361E9: g_list_prepend (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n2: 572040 0xB7340A2: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+     n2: 508536 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+      n2: 458448 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+       n2: 416016 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+        n2: 376800 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+         n2: 340656 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+          n2: 306864 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+           n2: 275184 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+            n1: 245616 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+             n0: 245616 in 3 places, all below massif's threshold (5.00%)
+            n0: 29568 in 2 places, all below massif's threshold (5.00%)
+           n0: 31680 in 2 places, all below massif's threshold (5.00%)
+          n0: 33792 in 2 places, all below massif's threshold (5.00%)
+         n0: 36144 in 2 places, all below massif's threshold (5.00%)
+        n0: 39216 in 2 places, all below massif's threshold (5.00%)
+       n0: 42432 in 2 places, all below massif's threshold (5.00%)
+      n0: 50088 in 2 places, all below massif's threshold (5.00%)
+     n0: 63504 in 2 places, all below massif's threshold (5.00%)
+    n0: 149160 in 18 places, all below massif's threshold (5.00%)
+   n1: 409744 0x6D5C1DD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n0: 409744 in 67 places, all below massif's threshold (5.00%)
+   n0: 32600 in 70 places, all below massif's threshold (5.00%)
+  n0: 84160 in 70 places, all below massif's threshold (5.00%)
+ n0: 885600 in 389 places, all below massif's threshold (5.00%)
+#-----------
+snapshot=23
+#-----------
+time=4974
+mem_heap_B=5169980
+mem_heap_extra_B=1253028
+mem_stacks_B=0
+heap_tree=detailed
+n3: 5169980 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 2424512 0x6D44D7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n2: 806400 0x6D09FF8: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n2: 789664 0x6D0A39C: g_array_append_vals (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n1: 524288 0x6D0A42D: g_byte_array_append (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+     n2: 524288 0xB734015: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+      n2: 524288 0xB73411F: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+       n2: 524288 0xB73411F: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+        n2: 524288 0xB73411F: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+         n2: 524288 0xB73411F: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+          n1: 524288 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+           n1: 524288 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+            n1: 524288 0xB73411F: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+             n1: 524288 0xB73411F: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+              n2: 524288 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+               n1: 524288 0xB73411F: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                n1: 524288 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                 n1: 524288 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                  n1: 524288 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                   n1: 524288 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                    n1: 524288 0xB73411F: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                     n1: 524288 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                      n1: 524288 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                       n1: 524288 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                        n1: 524288 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                         n1: 524288 0xB72D9CB: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                          n1: 524288 0xB7389DA: gtk_css_provider_load_from_file (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                           n1: 524288 0xB738A86: gtk_css_provider_load_from_path (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                            n1: 524288 0xB738D21: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                             n1: 524288 0xB876B19: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                              n0: 524288 0xB87B1A7: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+               n0: 0 in 1 place, below massif's threshold (5.00%)
+          n0: 0 in 1 place, below massif's threshold (5.00%)
+         n0: 0 in 2 places, all below massif's threshold (5.00%)
+        n0: 0 in 1 place, below massif's threshold (5.00%)
+       n0: 0 in 2 places, all below massif's threshold (5.00%)
+      n0: 0 in 2 places, all below massif's threshold (5.00%)
+    n0: 265376 in 8 places, all below massif's threshold (5.00%)
+   n0: 16736 in 4 places, all below massif's threshold (5.00%)
+  n0: 755304 in 39 places, all below massif's threshold (5.00%)
+  n2: 537112 0xB733852: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+   n2: 331384 0xB7344E3: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+    n1: 323336 0xB72C5CA: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+     n1: 323336 0xB72CA74: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+      n1: 323336 0xB7389DA: gtk_css_provider_load_from_file (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+       n1: 323336 0xB738A86: gtk_css_provider_load_from_path (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+        n1: 323336 0xB738D21: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+         n1: 323336 0xB876B19: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+          n1: 323336 0xB87B1A7: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+           n1: 323336 0xB804A37: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+            n1: 323336 0xC2B7744: g_cclosure_marshal_VOID__OBJECTv (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+             n1: 323336 0xC2D66FF: g_signal_emit_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+              n1: 323336 0xC2D6862: g_signal_emit (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+               n1: 323336 0xC2D66FF: g_signal_emit_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+                n1: 323336 0xC2D6A8D: g_signal_emit_by_name (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+                 n1: 323336 0xBE571C2: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+                  n1: 323336 0xBDF568E: gdk_display_manager_open_display (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+                   n1: 323336 0xB7E2D1A: gtk_init_check (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                    n1: 323336 0xB7E2D4C: gtk_init (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                     n1: 323336 0xB56738D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platformthemes/libqgtk3.so)
+                      n1: 323336 0xB55FE6C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platformthemes/libqgtk3.so)
+                       n1: 323336 0x547BCD8: QPlatformThemeFactory::create(QString const&, QString const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                        n1: 323336 0x542E829: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                         n1: 323336 0x5431F09: QGuiApplicationPrivate::createPlatformIntegration() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                          n1: 323336 0x5432987: QGuiApplicationPrivate::createEventDispatcher() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                           n1: 323336 0x5EBC965: QCoreApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                            n1: 323336 0x5435C27: QGuiApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                             n1: 323336 0x4C1DA6C: QApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                              n0: 323336 0x185257: main (main.cpp:11)
+    n0: 8048 in 1 place, below massif's threshold (5.00%)
+   n0: 205728 in 11 places, all below massif's threshold (5.00%)
+  n2: 325696 0x6D25CAC: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n1: 325504 0x6D26695: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n1: 325504 0x6D299CB: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+     n0: 325504 in 3 places, all below massif's threshold (5.00%)
+   n0: 192 in 1 place, below massif's threshold (5.00%)
+ n2: 1859864 0x6D44738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n3: 1775704 0x6D5BB74: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n2: 1319184 0x6D361E9: g_list_prepend (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n2: 1154208 0xB7340A2: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+     n2: 1090704 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+      n2: 1040616 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+       n2: 998184 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+        n2: 958968 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+         n2: 922824 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+          n2: 889032 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+           n2: 857352 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+            n2: 827784 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+             n2: 799800 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+              n2: 773208 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+               n2: 747984 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                n2: 724104 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                 n2: 701280 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                  n2: 679440 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                   n2: 658488 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                    n2: 638328 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                     n2: 618960 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                      n2: 600240 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                       n2: 582168 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                        n2: 564744 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                         n2: 547944 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                          n2: 531768 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                           n2: 516216 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                            n2: 501264 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                             n2: 486864 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                              n0: 473016 0xB734136: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                              n0: 13848 in 2 places, all below massif's threshold (5.00%)
+                             n0: 14400 in 2 places, all below massif's threshold (5.00%)
+                            n0: 14952 in 2 places, all below massif's threshold (5.00%)
+                           n0: 15552 in 2 places, all below massif's threshold (5.00%)
+                          n0: 16176 in 2 places, all below massif's threshold (5.00%)
+                         n0: 16800 in 2 places, all below massif's threshold (5.00%)
+                        n0: 17424 in 2 places, all below massif's threshold (5.00%)
+                       n0: 18072 in 2 places, all below massif's threshold (5.00%)
+                      n0: 18720 in 2 places, all below massif's threshold (5.00%)
+                     n0: 19368 in 2 places, all below massif's threshold (5.00%)
+                    n0: 20160 in 2 places, all below massif's threshold (5.00%)
+                   n0: 20952 in 2 places, all below massif's threshold (5.00%)
+                  n0: 21840 in 2 places, all below massif's threshold (5.00%)
+                 n0: 22824 in 2 places, all below massif's threshold (5.00%)
+                n0: 23880 in 2 places, all below massif's threshold (5.00%)
+               n0: 25224 in 2 places, all below massif's threshold (5.00%)
+              n0: 26592 in 2 places, all below massif's threshold (5.00%)
+             n0: 27984 in 2 places, all below massif's threshold (5.00%)
+            n0: 29568 in 2 places, all below massif's threshold (5.00%)
+           n0: 31680 in 2 places, all below massif's threshold (5.00%)
+          n0: 33792 in 2 places, all below massif's threshold (5.00%)
+         n0: 36144 in 2 places, all below massif's threshold (5.00%)
+        n0: 39216 in 2 places, all below massif's threshold (5.00%)
+       n0: 42432 in 2 places, all below massif's threshold (5.00%)
+      n0: 50088 in 2 places, all below massif's threshold (5.00%)
+     n0: 63504 in 2 places, all below massif's threshold (5.00%)
+    n0: 164976 in 18 places, all below massif's threshold (5.00%)
+   n1: 409744 0x6D5C1DD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n0: 409744 in 67 places, all below massif's threshold (5.00%)
+   n0: 46776 in 70 places, all below massif's threshold (5.00%)
+  n0: 84160 in 70 places, all below massif's threshold (5.00%)
+ n0: 885604 in 389 places, all below massif's threshold (5.00%)
+#-----------
+snapshot=24
+#-----------
+time=5175
+mem_heap_B=2433656
+mem_heap_extra_B=371712
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=5375
+mem_heap_B=2606455
+mem_heap_extra_B=410041
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=5575
+mem_heap_B=2733876
+mem_heap_extra_B=498644
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=5828
+mem_heap_B=2789300
+mem_heap_extra_B=500092
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=5986
+mem_heap_B=2867979
+mem_heap_extra_B=500669
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=6186
+mem_heap_B=2950918
+mem_heap_extra_B=505642
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=6386
+mem_heap_B=3087083
+mem_heap_extra_B=523957
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=6536
+mem_heap_B=3204703
+mem_heap_extra_B=541441
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=6672
+mem_heap_B=3418516
+mem_heap_extra_B=563532
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=6876
+mem_heap_B=3495971
+mem_heap_extra_B=569989
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=7082
+mem_heap_B=4671172
+mem_heap_extra_B=573316
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=7285
+mem_heap_B=4990025
+mem_heap_extra_B=670455
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=7553
+mem_heap_B=4859813
+mem_heap_extra_B=615451
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=7690
+mem_heap_B=4914149
+mem_heap_extra_B=619579
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=7896
+mem_heap_B=5071667
+mem_heap_extra_B=622997
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=8031
+mem_heap_B=5242381
+mem_heap_extra_B=625923
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=8234
+mem_heap_B=5399271
+mem_heap_extra_B=652337
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=8368
+mem_heap_B=5556672
+mem_heap_extra_B=653952
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=8622
+mem_heap_B=6801057
+mem_heap_extra_B=655143
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=8763
+mem_heap_B=6833531
+mem_heap_extra_B=654429
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=8897
+mem_heap_B=6868531
+mem_heap_extra_B=654525
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=9066
+mem_heap_B=6889110
+mem_heap_extra_B=654650
+mem_stacks_B=0
+heap_tree=detailed
+n4: 6889110 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 2736861 in 1068 places, all below massif's threshold (5.00%)
+ n1: 2271684 0x53C6D31: QImageData::create(QSize const&, QImage::Format) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+  n3: 2271684 0x53C707E: QImage::QImage(QSize const&, QImage::Format) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+   n1: 1220608 0xAC5F51E: QtWaylandClient::QWaylandAbstractDecoration::contentImage() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+    n1: 1220608 0xAC8FD2B: QtWaylandClient::QWaylandShmBackingStore::updateDecorations() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+     n1: 1220608 0xAC905D7: QtWaylandClient::QWaylandShmBackingStore::flush(QWindow*, QRegion const&, QPoint const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+      n1: 1220608 0x54C114F: QBackingStore::flush(QRegion const&, QWindow*, QPoint const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+       n1: 1220608 0x4C820D6: QWidgetRepaintManager::flush(QWidget*, QRegion const&, QPlatformTextureList*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+        n1: 1220608 0x4C83515: QWidgetRepaintManager::flush() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+         n1: 1220608 0x4C85703: QWidgetRepaintManager::paintAndFlush() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+          n1: 1220608 0x4C86462: QWidgetRepaintManager::sync(QWidget*, QRegion const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+           n1: 1220608 0x4C9026C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+            n1: 1220608 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+             n1: 1220608 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+              n1: 1220608 0x543D06A: QGuiApplicationPrivate::processExposeEvent(QWindowSystemInterfacePrivate::ExposeEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+               n1: 1220608 0x54A39EB: QWindowSystemInterface::sendWindowSystemEvents(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                n1: 1220608 0x54A3C17: QWindowSystemInterface::flushWindowSystemEvents(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                 n1: 1220608 0x5F0EEA7: QObject::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                  n1: 1220608 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                   n1: 1220608 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                    n1: 1220608 0x5EB8B1C: QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                     n1: 1220608 0x61A7176: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                      n1: 1220608 0x6D3BD3A: g_main_context_dispatch (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                       n1: 1220608 0x6D91257: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                        n1: 1220608 0x6D393E2: g_main_context_iteration (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                         n1: 1220608 0x61A682D: QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                          n1: 1220608 0x5EC23FA: QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                           n1: 1220608 0x5EBDED9: QCoreApplication::exec() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                            n0: 1220608 0x1852AF: main (main.cpp:24)
+   n2: 1051076 0x53C70C6: QImage::QImage(int, int, QImage::Format) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+    n1: 1048576 0x53CBF23: QImage::convertToFormat_helper(QImage::Format, QFlags<Qt::ImageConversionFlag>) const (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+     n1: 1048576 0x540586F: QRasterPlatformPixmap::createPixmapForImage(QImage, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+      n1: 1048576 0x5405DED: QRasterPlatformPixmap::fromImage(QImage const&, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+       n1: 1048576 0x540DCDC: QPlatformPixmap::fromFile(QString const&, char const*, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+        n1: 1048576 0x5403D48: QPixmap::load(QString const&, char const*, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+         n1: 1048576 0x21C07B: Ui_FileImportWindow::setupUi(QMainWindow*) (ui_fileimportwindow.h:95)
+          n1: 1048576 0x219DAB: FileImportWindow::FileImportWindow(QWidget*) (fileimportwindow.cpp:12)
+           n0: 1048576 0x18527A: main (main.cpp:12)
+    n0: 2500 in 1 place, below massif's threshold (5.00%)
+   n0: 0 in 1 place, below massif's threshold (5.00%)
+ n2: 1143844 0x6D44D7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 712148 in 52 places, all below massif's threshold (5.00%)
+  n1: 431696 0xB72D9E4: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+   n1: 431696 0xB7389DA: gtk_css_provider_load_from_file (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+    n1: 431696 0xB738A86: gtk_css_provider_load_from_path (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+     n1: 431696 0xB738D21: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+      n1: 431696 0xB876B19: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+       n1: 431696 0xB87B1A7: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+        n1: 431696 0xB804A37: ??? (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+         n1: 431696 0xC2B7744: g_cclosure_marshal_VOID__OBJECTv (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+          n1: 431696 0xC2D66FF: g_signal_emit_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+           n1: 431696 0xC2D6862: g_signal_emit (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+            n1: 431696 0xC2D66FF: g_signal_emit_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+             n1: 431696 0xC2D6A8D: g_signal_emit_by_name (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+              n1: 431696 0xBE571C2: ??? (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+               n1: 431696 0xBDF568E: gdk_display_manager_open_display (in /usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2404.29)
+                n1: 431696 0xB7E2D1A: gtk_init_check (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                 n1: 431696 0xB7E2D4C: gtk_init (in /usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2404.29)
+                  n1: 431696 0xB56738D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platformthemes/libqgtk3.so)
+                   n1: 431696 0xB55FE6C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/plugins/platformthemes/libqgtk3.so)
+                    n1: 431696 0x547BCD8: QPlatformThemeFactory::create(QString const&, QString const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                     n1: 431696 0x542E829: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                      n1: 431696 0x5431F09: QGuiApplicationPrivate::createPlatformIntegration() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                       n1: 431696 0x5432987: QGuiApplicationPrivate::createEventDispatcher() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                        n1: 431696 0x5EBC965: QCoreApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                         n1: 431696 0x5435C27: QGuiApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                          n1: 431696 0x4C1DA6C: QApplicationPrivate::init() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                           n0: 431696 0x185257: main (main.cpp:11)
+ n2: 736721 0x6D44738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n2: 615912 0x6D5BB74: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n1: 539864 0x6D5C1DD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n0: 539864 in 74 places, all below massif's threshold (5.00%)
+   n0: 76048 in 127 places, all below massif's threshold (5.00%)
+  n0: 120809 in 88 places, all below massif's threshold (5.00%)
+#-----------
+snapshot=46
+#-----------
+time=9334
+mem_heap_B=6871264
+mem_heap_extra_B=654584
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=9602
+mem_heap_B=6872765
+mem_heap_extra_B=654651
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=9767
+mem_heap_B=7999007
+mem_heap_extra_B=654513
+mem_stacks_B=0
+heap_tree=detailed
+n4: 7999007 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3492292 0x53C6D31: QImageData::create(QSize const&, QImage::Format) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+  n3: 3492292 0x53C707E: QImage::QImage(QSize const&, QImage::Format) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+   n1: 2441216 0xAC5F51E: QtWaylandClient::QWaylandAbstractDecoration::contentImage() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+    n1: 2441216 0xAC8FD2B: QtWaylandClient::QWaylandShmBackingStore::updateDecorations() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+     n1: 2441216 0xAC905D7: QtWaylandClient::QWaylandShmBackingStore::flush(QWindow*, QRegion const&, QPoint const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+      n1: 2441216 0x54C114F: QBackingStore::flush(QRegion const&, QWindow*, QPoint const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+       n1: 2441216 0x4C820D6: QWidgetRepaintManager::flush(QWidget*, QRegion const&, QPlatformTextureList*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+        n1: 2441216 0x4C83515: QWidgetRepaintManager::flush() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+         n2: 2441216 0x4C85703: QWidgetRepaintManager::paintAndFlush() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+          n1: 1220608 0x4C797E7: QWidget::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+           n1: 1220608 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+            n1: 1220608 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+             n1: 1220608 0x5EB8B1C: QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+              n1: 1220608 0x61A7176: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+               n1: 1220608 0x6D3BD3A: g_main_context_dispatch (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                n1: 1220608 0x6D91257: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                 n1: 1220608 0x6D393E2: g_main_context_iteration (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                  n1: 1220608 0x61A682D: QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                   n1: 1220608 0x5EC23FA: QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                    n1: 1220608 0x5EBDED9: QCoreApplication::exec() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                     n0: 1220608 0x1852AF: main (main.cpp:24)
+          n1: 1220608 0x4C86462: QWidgetRepaintManager::sync(QWidget*, QRegion const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+           n1: 1220608 0x4C9026C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+            n1: 1220608 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+             n1: 1220608 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+              n1: 1220608 0x543D06A: QGuiApplicationPrivate::processExposeEvent(QWindowSystemInterfacePrivate::ExposeEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+               n1: 1220608 0x54A39EB: QWindowSystemInterface::sendWindowSystemEvents(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                n1: 1220608 0x54A3C17: QWindowSystemInterface::flushWindowSystemEvents(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                 n1: 1220608 0x5F0EEA7: QObject::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                  n1: 1220608 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                   n1: 1220608 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                    n1: 1220608 0x5EB8B1C: QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                     n1: 1220608 0x61A7176: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                      n1: 1220608 0x6D3BD3A: g_main_context_dispatch (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                       n1: 1220608 0x6D91257: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                        n1: 1220608 0x6D393E2: g_main_context_iteration (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                         n1: 1220608 0x61A682D: QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                          n1: 1220608 0x5EC23FA: QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                           n1: 1220608 0x5EBDED9: QCoreApplication::exec() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                            n0: 1220608 0x1852AF: main (main.cpp:24)
+   n2: 1051076 0x53C70C6: QImage::QImage(int, int, QImage::Format) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+    n1: 1048576 0x53CBF23: QImage::convertToFormat_helper(QImage::Format, QFlags<Qt::ImageConversionFlag>) const (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+     n1: 1048576 0x540586F: QRasterPlatformPixmap::createPixmapForImage(QImage, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+      n1: 1048576 0x5405DED: QRasterPlatformPixmap::fromImage(QImage const&, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+       n1: 1048576 0x540DCDC: QPlatformPixmap::fromFile(QString const&, char const*, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+        n1: 1048576 0x5403D48: QPixmap::load(QString const&, char const*, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+         n1: 1048576 0x21C07B: Ui_FileImportWindow::setupUi(QMainWindow*) (ui_fileimportwindow.h:95)
+          n1: 1048576 0x219DAB: FileImportWindow::FileImportWindow(QWidget*) (fileimportwindow.cpp:12)
+           n0: 1048576 0x18527A: main (main.cpp:12)
+    n0: 2500 in 1 place, below massif's threshold (5.00%)
+   n0: 0 in 1 place, below massif's threshold (5.00%)
+ n0: 2626150 in 1073 places, all below massif's threshold (5.00%)
+ n1: 1143844 0x6D44D7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 1143844 in 53 places, all below massif's threshold (5.00%)
+ n2: 736721 0x6D44738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n2: 615912 0x6D5BB74: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n1: 539864 0x6D5C1DD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n0: 539864 in 74 places, all below massif's threshold (5.00%)
+   n0: 76048 in 127 places, all below massif's threshold (5.00%)
+  n0: 120809 in 88 places, all below massif's threshold (5.00%)
+#-----------
+snapshot=49
+#-----------
+time=9834
+mem_heap_B=6776320
+mem_heap_extra_B=653760
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=9958
+mem_heap_B=6948674
+mem_heap_extra_B=655446
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=10082
+mem_heap_B=6993501
+mem_heap_extra_B=656155
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=10136
+mem_heap_B=8161818
+mem_heap_extra_B=655126
+mem_stacks_B=0
+heap_tree=detailed
+n4: 8161818 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3492292 0x53C6D31: QImageData::create(QSize const&, QImage::Format) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+  n3: 3492292 0x53C707E: QImage::QImage(QSize const&, QImage::Format) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+   n1: 2441216 0xAC5F51E: QtWaylandClient::QWaylandAbstractDecoration::contentImage() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+    n1: 2441216 0xAC8FD2B: QtWaylandClient::QWaylandShmBackingStore::updateDecorations() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+     n1: 2441216 0xAC905D7: QtWaylandClient::QWaylandShmBackingStore::flush(QWindow*, QRegion const&, QPoint const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+      n1: 2441216 0x54C114F: QBackingStore::flush(QRegion const&, QWindow*, QPoint const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+       n2: 2441216 0x4C820D6: QWidgetRepaintManager::flush(QWidget*, QRegion const&, QPlatformTextureList*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+        n1: 1220608 0x4C83515: QWidgetRepaintManager::flush() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+         n2: 1220608 0x4C85703: QWidgetRepaintManager::paintAndFlush() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+          n1: 1220608 0x4C797E7: QWidget::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+           n1: 1220608 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+            n2: 1220608 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+             n1: 1220608 0x4C86944: QWidgetRepaintManager::sendUpdateRequest(QWidget*, QWidgetRepaintManager::UpdateTime) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+              n1: 1220608 0x4C89CB6: void QWidgetRepaintManager::markDirty<QRect>(QRect const&, QWidget*, QWidgetRepaintManager::UpdateTime, QWidgetRepaintManager::BufferState) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+               n1: 1220608 0x4C5D3AA: QWidget::repaint(QRect const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                n1: 1220608 0x4C5D40D: QWidget::repaint() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                 n1: 1220608 0x4C902D2: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                  n1: 1220608 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                   n1: 1220608 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                    n1: 1220608 0x547ECA4: QPlatformWindow::deliverUpdateRequest() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                     n1: 1220608 0x5F0EEA7: QObject::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                      n1: 1220608 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                       n1: 1220608 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                        n1: 1220608 0x5EB8B1C: QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                         n1: 1220608 0x61A7176: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                          n1: 1220608 0x6D3BD3A: g_main_context_dispatch (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                           n1: 1220608 0x6D91257: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                            n1: 1220608 0x6D393E2: g_main_context_iteration (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                             n1: 1220608 0x61A682D: QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                              n0: 1220608 0x5EC23FA: QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+             n0: 0 in 1 place, below massif's threshold (5.00%)
+          n0: 0 in 1 place, below massif's threshold (5.00%)
+        n1: 1220608 0x4C8653D: QWidgetRepaintManager::sync(QWidget*, QRegion const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+         n1: 1220608 0x4C9026C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+          n1: 1220608 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+           n1: 1220608 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+            n1: 1220608 0x543CFEB: QGuiApplicationPrivate::processExposeEvent(QWindowSystemInterfacePrivate::ExposeEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+             n1: 1220608 0x54A39EB: QWindowSystemInterface::sendWindowSystemEvents(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+              n1: 1220608 0x54A3C17: QWindowSystemInterface::flushWindowSystemEvents(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+               n1: 1220608 0xAC98829: QtWaylandClient::QWaylandWindow::applyConfigure() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                n1: 1220608 0x5F0EEA7: QObject::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                 n1: 1220608 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                  n1: 1220608 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                   n1: 1220608 0x5EB8B1C: QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                    n1: 1220608 0x61A7176: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                     n1: 1220608 0x6D3BD3A: g_main_context_dispatch (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                      n1: 1220608 0x6D91257: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                       n1: 1220608 0x6D393E2: g_main_context_iteration (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                        n1: 1220608 0x61A682D: QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                         n1: 1220608 0x5EC23FA: QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                          n1: 1220608 0x5EBDED9: QCoreApplication::exec() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                           n0: 1220608 0x1852AF: main (main.cpp:24)
+   n2: 1051076 0x53C70C6: QImage::QImage(int, int, QImage::Format) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+    n1: 1048576 0x53CBF23: QImage::convertToFormat_helper(QImage::Format, QFlags<Qt::ImageConversionFlag>) const (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+     n1: 1048576 0x540586F: QRasterPlatformPixmap::createPixmapForImage(QImage, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+      n1: 1048576 0x5405DED: QRasterPlatformPixmap::fromImage(QImage const&, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+       n1: 1048576 0x540DCDC: QPlatformPixmap::fromFile(QString const&, char const*, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+        n1: 1048576 0x5403D48: QPixmap::load(QString const&, char const*, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+         n1: 1048576 0x21C07B: Ui_FileImportWindow::setupUi(QMainWindow*) (ui_fileimportwindow.h:95)
+          n1: 1048576 0x219DAB: FileImportWindow::FileImportWindow(QWidget*) (fileimportwindow.cpp:12)
+           n0: 1048576 0x18527A: main (main.cpp:12)
+    n0: 2500 in 1 place, below massif's threshold (5.00%)
+   n0: 0 in 1 place, below massif's threshold (5.00%)
+ n0: 2789305 in 1113 places, all below massif's threshold (5.00%)
+ n1: 1143844 0x6D44D7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 1143844 in 53 places, all below massif's threshold (5.00%)
+ n2: 736377 0x6D44738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n2: 615632 0x6D5BB74: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n1: 539864 0x6D5C1DD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n0: 539864 in 74 places, all below massif's threshold (5.00%)
+   n0: 75768 in 127 places, all below massif's threshold (5.00%)
+  n0: 120745 in 88 places, all below massif's threshold (5.00%)
+#-----------
+snapshot=53
+#-----------
+time=10259
+mem_heap_B=7137274
+mem_heap_extra_B=729270
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=12534
+mem_heap_B=6942026
+mem_heap_extra_B=652270
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=12657
+mem_heap_B=7102565
+mem_heap_extra_B=663267
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=12780
+mem_heap_B=7132123
+mem_heap_extra_B=668429
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=12903
+mem_heap_B=6989094
+mem_heap_extra_B=667626
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=13337
+mem_heap_B=6986534
+mem_heap_extra_B=667250
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=13460
+mem_heap_B=6993774
+mem_heap_extra_B=667458
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=13612
+mem_heap_B=6984526
+mem_heap_extra_B=666906
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=14816
+mem_heap_B=6984546
+mem_heap_extra_B=666910
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=14939
+mem_heap_B=6998915
+mem_heap_extra_B=667845
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=15102
+mem_heap_B=6998355
+mem_heap_extra_B=667805
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=15225
+mem_heap_B=7098581
+mem_heap_extra_B=674587
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=15273
+mem_heap_B=8272762
+mem_heap_extra_B=676430
+mem_stacks_B=0
+heap_tree=detailed
+n4: 8272762 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3320260 0x53C6D31: QImageData::create(QSize const&, QImage::Format) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+  n3: 3320260 0x53C707E: QImage::QImage(QSize const&, QImage::Format) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+   n1: 1220608 0xAC5F51E: QtWaylandClient::QWaylandAbstractDecoration::contentImage() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+    n1: 1220608 0xAC8FD2B: QtWaylandClient::QWaylandShmBackingStore::updateDecorations() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+     n1: 1220608 0xAC905D7: QtWaylandClient::QWaylandShmBackingStore::flush(QWindow*, QRegion const&, QPoint const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+      n1: 1220608 0x54C114F: QBackingStore::flush(QRegion const&, QWindow*, QPoint const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+       n2: 1220608 0x4C820D6: QWidgetRepaintManager::flush(QWidget*, QRegion const&, QPlatformTextureList*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+        n1: 1220608 0x4C8653D: QWidgetRepaintManager::sync(QWidget*, QRegion const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+         n1: 1220608 0x4C9026C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+          n1: 1220608 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+           n1: 1220608 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+            n1: 1220608 0x543CFEB: QGuiApplicationPrivate::processExposeEvent(QWindowSystemInterfacePrivate::ExposeEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+             n1: 1220608 0x54A39EB: QWindowSystemInterface::sendWindowSystemEvents(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+              n1: 1220608 0x54A3C17: QWindowSystemInterface::flushWindowSystemEvents(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+               n1: 1220608 0xAC98829: QtWaylandClient::QWaylandWindow::applyConfigure() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                n1: 1220608 0x5F0EEA7: QObject::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                 n1: 1220608 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                  n1: 1220608 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                   n1: 1220608 0x5EB8B1C: QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                    n1: 1220608 0x61A7176: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                     n1: 1220608 0x6D3BD3A: g_main_context_dispatch (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                      n1: 1220608 0x6D91257: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                       n1: 1220608 0x6D393E2: g_main_context_iteration (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                        n1: 1220608 0x61A682D: QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                         n1: 1220608 0x5EC23FA: QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                          n1: 1220608 0x5EBDED9: QCoreApplication::exec() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                           n0: 1220608 0x1852AF: main (main.cpp:24)
+        n0: 0 in 1 place, below massif's threshold (5.00%)
+   n2: 1051076 0x53C70C6: QImage::QImage(int, int, QImage::Format) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+    n1: 1048576 0x53CBF23: QImage::convertToFormat_helper(QImage::Format, QFlags<Qt::ImageConversionFlag>) const (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+     n1: 1048576 0x540586F: QRasterPlatformPixmap::createPixmapForImage(QImage, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+      n1: 1048576 0x5405DED: QRasterPlatformPixmap::fromImage(QImage const&, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+       n1: 1048576 0x540DCDC: QPlatformPixmap::fromFile(QString const&, char const*, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+        n1: 1048576 0x5403D48: QPixmap::load(QString const&, char const*, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+         n1: 1048576 0x21C07B: Ui_FileImportWindow::setupUi(QMainWindow*) (ui_fileimportwindow.h:95)
+          n1: 1048576 0x219DAB: FileImportWindow::FileImportWindow(QWidget*) (fileimportwindow.cpp:12)
+           n0: 1048576 0x18527A: main (main.cpp:12)
+    n0: 2500 in 1 place, below massif's threshold (5.00%)
+   n1: 1048576 0x53EBBF9: QImageIOHandler::allocateImage(QSize, QImage::Format, QImage*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+    n1: 1048576 0x58B19AA: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+     n1: 1048576 0x53F13A6: QImageReader::read(QImage*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+      n1: 1048576 0x53F1B88: QImageReader::read() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+       n1: 1048576 0x540DC62: QPlatformPixmap::fromFile(QString const&, char const*, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+        n2: 1048576 0x5403D48: QPixmap::load(QString const&, char const*, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+         n1: 1048576 0x222AEE: Ui_DynamicUI::setupUi(QMainWindow*) (ui_dynamicui.h:165)
+          n1: 1048576 0x21F20A: DynamicUI::DynamicUI(QWidget*, QString const&) (dynamicui.cpp:22)
+           n1: 1048576 0x21A755: FileImportWindow::dropEvent(QDropEvent*) (fileimportwindow.cpp:49)
+            n1: 1048576 0x4C7969D: QWidget::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+             n1: 1048576 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+              n1: 1048576 0x4C1FF1E: QApplication::notify(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+               n1: 1048576 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                n1: 1048576 0x4C8F65D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                 n1: 1048576 0x4C902AB: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                  n1: 1048576 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                   n1: 1048576 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                    n1: 1048576 0x543D582: QGuiApplicationPrivate::processDrop(QWindow*, QMimeData const*, QPoint const&, QFlags<Qt::DropAction>, QFlags<Qt::MouseButton>, QFlags<Qt::KeyboardModifier>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                     n1: 1048576 0x54A2F24: QWindowSystemInterface::handleDrop(QWindow*, QMimeData const*, QPoint const&, QFlags<Qt::DropAction>, QFlags<Qt::MouseButton>, QFlags<Qt::KeyboardModifier>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                      n1: 1048576 0xACB5719: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                       n1: 1048576 0xAD1FE2D: ??? (in /usr/lib/x86_64-linux-gnu/libffi.so.8.1.0)
+                        n1: 1048576 0xAD1C492: ??? (in /usr/lib/x86_64-linux-gnu/libffi.so.8.1.0)
+                         n1: 1048576 0xAD0DACF: ??? (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                          n1: 1048576 0xAD0E242: ??? (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                           n1: 1048576 0xAD0E43B: wl_display_dispatch_queue_pending (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                            n1: 1048576 0xAC68B85: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                             n1: 1048576 0xAC62040: QtWaylandClient::QWaylandDisplay::flushRequests() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                              n0: 1048576 0x5F0EEA7: QObject::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+         n0: 0 in 1 place, below massif's threshold (5.00%)
+ n0: 3075130 in 1200 places, all below massif's threshold (5.00%)
+ n1: 1143824 0x6D44D7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 1143824 in 53 places, all below massif's threshold (5.00%)
+ n2: 733548 0x6D44738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n2: 613312 0x6D5BB74: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n1: 539056 0x6D5C1DD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n0: 539056 in 74 places, all below massif's threshold (5.00%)
+   n0: 74256 in 127 places, all below massif's threshold (5.00%)
+  n0: 120236 in 89 places, all below massif's threshold (5.00%)
+#-----------
+snapshot=66
+#-----------
+time=15274
+mem_heap_B=9249767
+mem_heap_extra_B=676233
+mem_stacks_B=0
+heap_tree=detailed
+n4: 9249767 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4368836 0x53C6D31: QImageData::create(QSize const&, QImage::Format) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+  n3: 4368836 0x53C707E: QImage::QImage(QSize const&, QImage::Format) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+   n2: 2099652 0x53C70C6: QImage::QImage(int, int, QImage::Format) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+    n1: 2097152 0x53CBF23: QImage::convertToFormat_helper(QImage::Format, QFlags<Qt::ImageConversionFlag>) const (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+     n1: 2097152 0x540586F: QRasterPlatformPixmap::createPixmapForImage(QImage, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+      n1: 2097152 0x5405DED: QRasterPlatformPixmap::fromImage(QImage const&, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+       n1: 2097152 0x540DCDC: QPlatformPixmap::fromFile(QString const&, char const*, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+        n2: 2097152 0x5403D48: QPixmap::load(QString const&, char const*, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+         n1: 1048576 0x21C07B: Ui_FileImportWindow::setupUi(QMainWindow*) (ui_fileimportwindow.h:95)
+          n1: 1048576 0x219DAB: FileImportWindow::FileImportWindow(QWidget*) (fileimportwindow.cpp:12)
+           n0: 1048576 0x18527A: main (main.cpp:12)
+         n1: 1048576 0x222AEE: Ui_DynamicUI::setupUi(QMainWindow*) (ui_dynamicui.h:165)
+          n1: 1048576 0x21F20A: DynamicUI::DynamicUI(QWidget*, QString const&) (dynamicui.cpp:22)
+           n1: 1048576 0x21A755: FileImportWindow::dropEvent(QDropEvent*) (fileimportwindow.cpp:49)
+            n1: 1048576 0x4C7969D: QWidget::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+             n1: 1048576 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+              n1: 1048576 0x4C1FF1E: QApplication::notify(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+               n1: 1048576 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                n1: 1048576 0x4C8F65D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                 n1: 1048576 0x4C902AB: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                  n1: 1048576 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                   n1: 1048576 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                    n1: 1048576 0x543D582: QGuiApplicationPrivate::processDrop(QWindow*, QMimeData const*, QPoint const&, QFlags<Qt::DropAction>, QFlags<Qt::MouseButton>, QFlags<Qt::KeyboardModifier>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                     n1: 1048576 0x54A2F24: QWindowSystemInterface::handleDrop(QWindow*, QMimeData const*, QPoint const&, QFlags<Qt::DropAction>, QFlags<Qt::MouseButton>, QFlags<Qt::KeyboardModifier>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                      n1: 1048576 0xACB5719: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                       n1: 1048576 0xAD1FE2D: ??? (in /usr/lib/x86_64-linux-gnu/libffi.so.8.1.0)
+                        n1: 1048576 0xAD1C492: ??? (in /usr/lib/x86_64-linux-gnu/libffi.so.8.1.0)
+                         n1: 1048576 0xAD0DACF: ??? (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                          n1: 1048576 0xAD0E242: ??? (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                           n1: 1048576 0xAD0E43B: wl_display_dispatch_queue_pending (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                            n1: 1048576 0xAC68B85: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                             n1: 1048576 0xAC62040: QtWaylandClient::QWaylandDisplay::flushRequests() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                              n0: 1048576 0x5F0EEA7: QObject::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+    n0: 2500 in 1 place, below massif's threshold (5.00%)
+   n1: 1220608 0xAC5F51E: QtWaylandClient::QWaylandAbstractDecoration::contentImage() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+    n1: 1220608 0xAC8FD2B: QtWaylandClient::QWaylandShmBackingStore::updateDecorations() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+     n1: 1220608 0xAC905D7: QtWaylandClient::QWaylandShmBackingStore::flush(QWindow*, QRegion const&, QPoint const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+      n1: 1220608 0x54C114F: QBackingStore::flush(QRegion const&, QWindow*, QPoint const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+       n2: 1220608 0x4C820D6: QWidgetRepaintManager::flush(QWidget*, QRegion const&, QPlatformTextureList*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+        n1: 1220608 0x4C8653D: QWidgetRepaintManager::sync(QWidget*, QRegion const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+         n1: 1220608 0x4C9026C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+          n1: 1220608 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+           n1: 1220608 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+            n1: 1220608 0x543CFEB: QGuiApplicationPrivate::processExposeEvent(QWindowSystemInterfacePrivate::ExposeEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+             n1: 1220608 0x54A39EB: QWindowSystemInterface::sendWindowSystemEvents(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+              n1: 1220608 0x54A3C17: QWindowSystemInterface::flushWindowSystemEvents(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+               n1: 1220608 0xAC98829: QtWaylandClient::QWaylandWindow::applyConfigure() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                n1: 1220608 0x5F0EEA7: QObject::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                 n1: 1220608 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                  n1: 1220608 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                   n1: 1220608 0x5EB8B1C: QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                    n1: 1220608 0x61A7176: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                     n1: 1220608 0x6D3BD3A: g_main_context_dispatch (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                      n1: 1220608 0x6D91257: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                       n1: 1220608 0x6D393E2: g_main_context_iteration (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                        n1: 1220608 0x61A682D: QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                         n1: 1220608 0x5EC23FA: QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                          n1: 1220608 0x5EBDED9: QCoreApplication::exec() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                           n0: 1220608 0x1852AF: main (main.cpp:24)
+        n0: 0 in 1 place, below massif's threshold (5.00%)
+   n1: 1048576 0x53EBBF9: QImageIOHandler::allocateImage(QSize, QImage::Format, QImage*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+    n1: 1048576 0x58B19AA: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+     n1: 1048576 0x53F13A6: QImageReader::read(QImage*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+      n1: 1048576 0x53F1B88: QImageReader::read() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+       n1: 1048576 0x540DC62: QPlatformPixmap::fromFile(QString const&, char const*, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+        n2: 1048576 0x5403D48: QPixmap::load(QString const&, char const*, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+         n1: 1048576 0x222AEE: Ui_DynamicUI::setupUi(QMainWindow*) (ui_dynamicui.h:165)
+          n1: 1048576 0x21F20A: DynamicUI::DynamicUI(QWidget*, QString const&) (dynamicui.cpp:22)
+           n1: 1048576 0x21A755: FileImportWindow::dropEvent(QDropEvent*) (fileimportwindow.cpp:49)
+            n1: 1048576 0x4C7969D: QWidget::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+             n1: 1048576 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+              n1: 1048576 0x4C1FF1E: QApplication::notify(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+               n1: 1048576 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                n1: 1048576 0x4C8F65D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                 n1: 1048576 0x4C902AB: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                  n1: 1048576 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                   n1: 1048576 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                    n1: 1048576 0x543D582: QGuiApplicationPrivate::processDrop(QWindow*, QMimeData const*, QPoint const&, QFlags<Qt::DropAction>, QFlags<Qt::MouseButton>, QFlags<Qt::KeyboardModifier>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                     n1: 1048576 0x54A2F24: QWindowSystemInterface::handleDrop(QWindow*, QMimeData const*, QPoint const&, QFlags<Qt::DropAction>, QFlags<Qt::MouseButton>, QFlags<Qt::KeyboardModifier>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                      n1: 1048576 0xACB5719: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                       n1: 1048576 0xAD1FE2D: ??? (in /usr/lib/x86_64-linux-gnu/libffi.so.8.1.0)
+                        n1: 1048576 0xAD1C492: ??? (in /usr/lib/x86_64-linux-gnu/libffi.so.8.1.0)
+                         n1: 1048576 0xAD0DACF: ??? (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                          n1: 1048576 0xAD0E242: ??? (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                           n1: 1048576 0xAD0E43B: wl_display_dispatch_queue_pending (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                            n1: 1048576 0xAC68B85: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                             n1: 1048576 0xAC62040: QtWaylandClient::QWaylandDisplay::flushRequests() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                              n0: 1048576 0x5F0EEA7: QObject::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+         n0: 0 in 1 place, below massif's threshold (5.00%)
+ n0: 3003559 in 1200 places, all below massif's threshold (5.00%)
+ n1: 1143824 0x6D44D7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 1143824 in 53 places, all below massif's threshold (5.00%)
+ n2: 733548 0x6D44738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n2: 613312 0x6D5BB74: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n1: 539056 0x6D5C1DD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n0: 539056 in 74 places, all below massif's threshold (5.00%)
+   n0: 74256 in 127 places, all below massif's threshold (5.00%)
+  n0: 120236 in 89 places, all below massif's threshold (5.00%)
+#-----------
+snapshot=67
+#-----------
+time=15306
+mem_heap_B=10309277
+mem_heap_extra_B=676739
+mem_stacks_B=0
+heap_tree=detailed
+n4: 10309277 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 5417412 0x53C6D31: QImageData::create(QSize const&, QImage::Format) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+  n3: 5417412 0x53C707E: QImage::QImage(QSize const&, QImage::Format) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+   n2: 3148228 0x53C70C6: QImage::QImage(int, int, QImage::Format) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+    n1: 3145728 0x53CBF23: QImage::convertToFormat_helper(QImage::Format, QFlags<Qt::ImageConversionFlag>) const (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+     n1: 3145728 0x540586F: QRasterPlatformPixmap::createPixmapForImage(QImage, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+      n1: 3145728 0x5405DED: QRasterPlatformPixmap::fromImage(QImage const&, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+       n1: 3145728 0x540DCDC: QPlatformPixmap::fromFile(QString const&, char const*, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+        n3: 3145728 0x5403D48: QPixmap::load(QString const&, char const*, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+         n1: 1048576 0x21C07B: Ui_FileImportWindow::setupUi(QMainWindow*) (ui_fileimportwindow.h:95)
+          n1: 1048576 0x219DAB: FileImportWindow::FileImportWindow(QWidget*) (fileimportwindow.cpp:12)
+           n0: 1048576 0x18527A: main (main.cpp:12)
+         n1: 1048576 0x222AEE: Ui_DynamicUI::setupUi(QMainWindow*) (ui_dynamicui.h:165)
+          n1: 1048576 0x21F20A: DynamicUI::DynamicUI(QWidget*, QString const&) (dynamicui.cpp:22)
+           n1: 1048576 0x21A755: FileImportWindow::dropEvent(QDropEvent*) (fileimportwindow.cpp:49)
+            n1: 1048576 0x4C7969D: QWidget::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+             n1: 1048576 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+              n1: 1048576 0x4C1FF1E: QApplication::notify(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+               n1: 1048576 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                n1: 1048576 0x4C8F65D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                 n1: 1048576 0x4C902AB: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                  n1: 1048576 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                   n1: 1048576 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                    n1: 1048576 0x543D582: QGuiApplicationPrivate::processDrop(QWindow*, QMimeData const*, QPoint const&, QFlags<Qt::DropAction>, QFlags<Qt::MouseButton>, QFlags<Qt::KeyboardModifier>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                     n1: 1048576 0x54A2F24: QWindowSystemInterface::handleDrop(QWindow*, QMimeData const*, QPoint const&, QFlags<Qt::DropAction>, QFlags<Qt::MouseButton>, QFlags<Qt::KeyboardModifier>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                      n1: 1048576 0xACB5719: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                       n1: 1048576 0xAD1FE2D: ??? (in /usr/lib/x86_64-linux-gnu/libffi.so.8.1.0)
+                        n1: 1048576 0xAD1C492: ??? (in /usr/lib/x86_64-linux-gnu/libffi.so.8.1.0)
+                         n1: 1048576 0xAD0DACF: ??? (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                          n1: 1048576 0xAD0E242: ??? (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                           n1: 1048576 0xAD0E43B: wl_display_dispatch_queue_pending (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                            n1: 1048576 0xAC68B85: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                             n1: 1048576 0xAC62040: QtWaylandClient::QWaylandDisplay::flushRequests() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                              n0: 1048576 0x5F0EEA7: QObject::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+         n1: 1048576 0x222F4A: Ui_DynamicUI::setupUi(QMainWindow*) (ui_dynamicui.h:176)
+          n1: 1048576 0x21F20A: DynamicUI::DynamicUI(QWidget*, QString const&) (dynamicui.cpp:22)
+           n1: 1048576 0x21A755: FileImportWindow::dropEvent(QDropEvent*) (fileimportwindow.cpp:49)
+            n1: 1048576 0x4C7969D: QWidget::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+             n1: 1048576 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+              n1: 1048576 0x4C1FF1E: QApplication::notify(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+               n1: 1048576 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                n1: 1048576 0x4C8F65D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                 n1: 1048576 0x4C902AB: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                  n1: 1048576 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                   n1: 1048576 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                    n1: 1048576 0x543D582: QGuiApplicationPrivate::processDrop(QWindow*, QMimeData const*, QPoint const&, QFlags<Qt::DropAction>, QFlags<Qt::MouseButton>, QFlags<Qt::KeyboardModifier>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                     n1: 1048576 0x54A2F24: QWindowSystemInterface::handleDrop(QWindow*, QMimeData const*, QPoint const&, QFlags<Qt::DropAction>, QFlags<Qt::MouseButton>, QFlags<Qt::KeyboardModifier>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                      n1: 1048576 0xACB5719: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                       n1: 1048576 0xAD1FE2D: ??? (in /usr/lib/x86_64-linux-gnu/libffi.so.8.1.0)
+                        n1: 1048576 0xAD1C492: ??? (in /usr/lib/x86_64-linux-gnu/libffi.so.8.1.0)
+                         n1: 1048576 0xAD0DACF: ??? (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                          n1: 1048576 0xAD0E242: ??? (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                           n1: 1048576 0xAD0E43B: wl_display_dispatch_queue_pending (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                            n1: 1048576 0xAC68B85: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                             n1: 1048576 0xAC62040: QtWaylandClient::QWaylandDisplay::flushRequests() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                              n0: 1048576 0x5F0EEA7: QObject::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+    n0: 2500 in 1 place, below massif's threshold (5.00%)
+   n1: 1220608 0xAC5F51E: QtWaylandClient::QWaylandAbstractDecoration::contentImage() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+    n1: 1220608 0xAC8FD2B: QtWaylandClient::QWaylandShmBackingStore::updateDecorations() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+     n1: 1220608 0xAC905D7: QtWaylandClient::QWaylandShmBackingStore::flush(QWindow*, QRegion const&, QPoint const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+      n1: 1220608 0x54C114F: QBackingStore::flush(QRegion const&, QWindow*, QPoint const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+       n2: 1220608 0x4C820D6: QWidgetRepaintManager::flush(QWidget*, QRegion const&, QPlatformTextureList*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+        n1: 1220608 0x4C8653D: QWidgetRepaintManager::sync(QWidget*, QRegion const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+         n1: 1220608 0x4C9026C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+          n1: 1220608 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+           n1: 1220608 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+            n1: 1220608 0x543CFEB: QGuiApplicationPrivate::processExposeEvent(QWindowSystemInterfacePrivate::ExposeEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+             n1: 1220608 0x54A39EB: QWindowSystemInterface::sendWindowSystemEvents(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+              n1: 1220608 0x54A3C17: QWindowSystemInterface::flushWindowSystemEvents(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+               n1: 1220608 0xAC98829: QtWaylandClient::QWaylandWindow::applyConfigure() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                n1: 1220608 0x5F0EEA7: QObject::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                 n1: 1220608 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                  n1: 1220608 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                   n1: 1220608 0x5EB8B1C: QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                    n1: 1220608 0x61A7176: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                     n1: 1220608 0x6D3BD3A: g_main_context_dispatch (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                      n1: 1220608 0x6D91257: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                       n1: 1220608 0x6D393E2: g_main_context_iteration (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                        n1: 1220608 0x61A682D: QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                         n1: 1220608 0x5EC23FA: QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                          n1: 1220608 0x5EBDED9: QCoreApplication::exec() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                           n0: 1220608 0x1852AF: main (main.cpp:24)
+        n0: 0 in 1 place, below massif's threshold (5.00%)
+   n1: 1048576 0x53EBBF9: QImageIOHandler::allocateImage(QSize, QImage::Format, QImage*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+    n1: 1048576 0x58B19AA: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+     n1: 1048576 0x53F13A6: QImageReader::read(QImage*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+      n1: 1048576 0x53F1B88: QImageReader::read() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+       n1: 1048576 0x540DC62: QPlatformPixmap::fromFile(QString const&, char const*, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+        n2: 1048576 0x5403D48: QPixmap::load(QString const&, char const*, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+         n1: 1048576 0x222F4A: Ui_DynamicUI::setupUi(QMainWindow*) (ui_dynamicui.h:176)
+          n1: 1048576 0x21F20A: DynamicUI::DynamicUI(QWidget*, QString const&) (dynamicui.cpp:22)
+           n1: 1048576 0x21A755: FileImportWindow::dropEvent(QDropEvent*) (fileimportwindow.cpp:49)
+            n1: 1048576 0x4C7969D: QWidget::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+             n1: 1048576 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+              n1: 1048576 0x4C1FF1E: QApplication::notify(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+               n1: 1048576 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                n1: 1048576 0x4C8F65D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                 n1: 1048576 0x4C902AB: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                  n1: 1048576 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                   n1: 1048576 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                    n1: 1048576 0x543D582: QGuiApplicationPrivate::processDrop(QWindow*, QMimeData const*, QPoint const&, QFlags<Qt::DropAction>, QFlags<Qt::MouseButton>, QFlags<Qt::KeyboardModifier>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                     n1: 1048576 0x54A2F24: QWindowSystemInterface::handleDrop(QWindow*, QMimeData const*, QPoint const&, QFlags<Qt::DropAction>, QFlags<Qt::MouseButton>, QFlags<Qt::KeyboardModifier>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                      n1: 1048576 0xACB5719: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                       n1: 1048576 0xAD1FE2D: ??? (in /usr/lib/x86_64-linux-gnu/libffi.so.8.1.0)
+                        n1: 1048576 0xAD1C492: ??? (in /usr/lib/x86_64-linux-gnu/libffi.so.8.1.0)
+                         n1: 1048576 0xAD0DACF: ??? (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                          n1: 1048576 0xAD0E242: ??? (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                           n1: 1048576 0xAD0E43B: wl_display_dispatch_queue_pending (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                            n1: 1048576 0xAC68B85: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                             n1: 1048576 0xAC62040: QtWaylandClient::QWaylandDisplay::flushRequests() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                              n0: 1048576 0x5F0EEA7: QObject::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+         n0: 0 in 2 places, all below massif's threshold (5.00%)
+ n0: 3014493 in 1202 places, all below massif's threshold (5.00%)
+ n1: 1143824 0x6D44D7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 1143824 in 53 places, all below massif's threshold (5.00%)
+ n2: 733548 0x6D44738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n1: 613312 0x6D5BB74: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n0: 613312 in 128 places, all below massif's threshold (5.00%)
+  n0: 120236 in 89 places, all below massif's threshold (5.00%)
+#-----------
+snapshot=68
+#-----------
+time=15429
+mem_heap_B=9375300
+mem_heap_extra_B=684964
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=15552
+mem_heap_B=9443523
+mem_heap_extra_B=700365
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=15675
+mem_heap_B=8338190
+mem_heap_extra_B=704890
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=15798
+mem_heap_B=8440005
+mem_heap_extra_B=704347
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=15921
+mem_heap_B=8439972
+mem_heap_extra_B=704396
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=16044
+mem_heap_B=8441530
+mem_heap_extra_B=704398
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=16167
+mem_heap_B=8442229
+mem_heap_extra_B=704411
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=16290
+mem_heap_B=8442709
+mem_heap_extra_B=704443
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=16413
+mem_heap_B=8442363
+mem_heap_extra_B=704381
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=16536
+mem_heap_B=8442417
+mem_heap_extra_B=704415
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=16659
+mem_heap_B=8444111
+mem_heap_extra_B=704473
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=16782
+mem_heap_B=8443615
+mem_heap_extra_B=704441
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=16892
+mem_heap_B=11289359
+mem_heap_extra_B=707273
+mem_stacks_B=0
+heap_tree=detailed
+n4: 11289359 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 6060052 0x53C6D31: QImageData::create(QSize const&, QImage::Format) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+  n3: 6060052 0x53C707E: QImage::QImage(QSize const&, QImage::Format) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+   n2: 3153228 0x53C70C6: QImage::QImage(int, int, QImage::Format) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+    n1: 3145728 0x53CBF23: QImage::convertToFormat_helper(QImage::Format, QFlags<Qt::ImageConversionFlag>) const (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+     n1: 3145728 0x540586F: QRasterPlatformPixmap::createPixmapForImage(QImage, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+      n1: 3145728 0x5405DED: QRasterPlatformPixmap::fromImage(QImage const&, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+       n1: 3145728 0x540DCDC: QPlatformPixmap::fromFile(QString const&, char const*, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+        n3: 3145728 0x5403D48: QPixmap::load(QString const&, char const*, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+         n1: 1048576 0x21C07B: Ui_FileImportWindow::setupUi(QMainWindow*) (ui_fileimportwindow.h:95)
+          n1: 1048576 0x219DAB: FileImportWindow::FileImportWindow(QWidget*) (fileimportwindow.cpp:12)
+           n0: 1048576 0x18527A: main (main.cpp:12)
+         n1: 1048576 0x222AEE: Ui_DynamicUI::setupUi(QMainWindow*) (ui_dynamicui.h:165)
+          n1: 1048576 0x21F20A: DynamicUI::DynamicUI(QWidget*, QString const&) (dynamicui.cpp:22)
+           n1: 1048576 0x21A755: FileImportWindow::dropEvent(QDropEvent*) (fileimportwindow.cpp:49)
+            n1: 1048576 0x4C7969D: QWidget::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+             n1: 1048576 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+              n1: 1048576 0x4C1FF1E: QApplication::notify(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+               n1: 1048576 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                n1: 1048576 0x4C8F65D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                 n1: 1048576 0x4C902AB: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                  n1: 1048576 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                   n1: 1048576 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                    n1: 1048576 0x543D582: QGuiApplicationPrivate::processDrop(QWindow*, QMimeData const*, QPoint const&, QFlags<Qt::DropAction>, QFlags<Qt::MouseButton>, QFlags<Qt::KeyboardModifier>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                     n1: 1048576 0x54A2F24: QWindowSystemInterface::handleDrop(QWindow*, QMimeData const*, QPoint const&, QFlags<Qt::DropAction>, QFlags<Qt::MouseButton>, QFlags<Qt::KeyboardModifier>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                      n1: 1048576 0xACB5719: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                       n1: 1048576 0xAD1FE2D: ??? (in /usr/lib/x86_64-linux-gnu/libffi.so.8.1.0)
+                        n1: 1048576 0xAD1C492: ??? (in /usr/lib/x86_64-linux-gnu/libffi.so.8.1.0)
+                         n1: 1048576 0xAD0DACF: ??? (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                          n1: 1048576 0xAD0E242: ??? (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                           n1: 1048576 0xAD0E43B: wl_display_dispatch_queue_pending (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                            n1: 1048576 0xAC68B85: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                             n1: 1048576 0xAC62040: QtWaylandClient::QWaylandDisplay::flushRequests() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                              n0: 1048576 0x5F0EEA7: QObject::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+         n1: 1048576 0x222F4A: Ui_DynamicUI::setupUi(QMainWindow*) (ui_dynamicui.h:176)
+          n1: 1048576 0x21F20A: DynamicUI::DynamicUI(QWidget*, QString const&) (dynamicui.cpp:22)
+           n1: 1048576 0x21A755: FileImportWindow::dropEvent(QDropEvent*) (fileimportwindow.cpp:49)
+            n1: 1048576 0x4C7969D: QWidget::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+             n1: 1048576 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+              n1: 1048576 0x4C1FF1E: QApplication::notify(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+               n1: 1048576 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                n1: 1048576 0x4C8F65D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                 n1: 1048576 0x4C902AB: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                  n1: 1048576 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                   n1: 1048576 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                    n1: 1048576 0x543D582: QGuiApplicationPrivate::processDrop(QWindow*, QMimeData const*, QPoint const&, QFlags<Qt::DropAction>, QFlags<Qt::MouseButton>, QFlags<Qt::KeyboardModifier>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                     n1: 1048576 0x54A2F24: QWindowSystemInterface::handleDrop(QWindow*, QMimeData const*, QPoint const&, QFlags<Qt::DropAction>, QFlags<Qt::MouseButton>, QFlags<Qt::KeyboardModifier>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                      n1: 1048576 0xACB5719: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                       n1: 1048576 0xAD1FE2D: ??? (in /usr/lib/x86_64-linux-gnu/libffi.so.8.1.0)
+                        n1: 1048576 0xAD1C492: ??? (in /usr/lib/x86_64-linux-gnu/libffi.so.8.1.0)
+                         n1: 1048576 0xAD0DACF: ??? (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                          n1: 1048576 0xAD0E242: ??? (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                           n1: 1048576 0xAD0E43B: wl_display_dispatch_queue_pending (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                            n1: 1048576 0xAC68B85: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                             n1: 1048576 0xAC62040: QtWaylandClient::QWaylandDisplay::flushRequests() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                              n0: 1048576 0x5F0EEA7: QObject::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+    n0: 7500 in 1 place, below massif's threshold (5.00%)
+   n1: 2906824 0xAC5F51E: QtWaylandClient::QWaylandAbstractDecoration::contentImage() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+    n1: 2906824 0xAC8FD2B: QtWaylandClient::QWaylandShmBackingStore::updateDecorations() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+     n1: 2906824 0xAC905D7: QtWaylandClient::QWaylandShmBackingStore::flush(QWindow*, QRegion const&, QPoint const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+      n1: 2906824 0x54C114F: QBackingStore::flush(QRegion const&, QWindow*, QPoint const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+       n2: 2906824 0x4C820D6: QWidgetRepaintManager::flush(QWidget*, QRegion const&, QPlatformTextureList*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+        n1: 2906824 0x4C83515: QWidgetRepaintManager::flush() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+         n2: 2906824 0x4C85703: QWidgetRepaintManager::paintAndFlush() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+          n1: 2906824 0x4C86462: QWidgetRepaintManager::sync(QWidget*, QRegion const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+           n1: 2906824 0x4C9026C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+            n1: 2906824 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+             n1: 2906824 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+              n1: 2906824 0x543D06A: QGuiApplicationPrivate::processExposeEvent(QWindowSystemInterfacePrivate::ExposeEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+               n1: 2906824 0x54A39EB: QWindowSystemInterface::sendWindowSystemEvents(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                n2: 2906824 0x54A3C17: QWindowSystemInterface::flushWindowSystemEvents(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                 n1: 2906824 0x5F1B0E2: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                  n1: 2906824 0x61A6871: QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                   n1: 2906824 0x5EC23FA: QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                    n1: 2906824 0x5EBDED9: QCoreApplication::exec() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                     n0: 2906824 0x1852AF: main (main.cpp:24)
+                 n0: 0 in 1 place, below massif's threshold (5.00%)
+          n0: 0 in 1 place, below massif's threshold (5.00%)
+        n0: 0 in 1 place, below massif's threshold (5.00%)
+   n0: 0 in 1 place, below massif's threshold (5.00%)
+ n0: 3351935 in 1230 places, all below massif's threshold (5.00%)
+ n1: 1143824 0x6D44D7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 1143824 in 53 places, all below massif's threshold (5.00%)
+ n2: 733548 0x6D44738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n1: 613312 0x6D5BB74: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n0: 613312 in 128 places, all below massif's threshold (5.00%)
+  n0: 120236 in 89 places, all below massif's threshold (5.00%)
+#-----------
+snapshot=81
+#-----------
+time=16987
+mem_heap_B=14196989
+mem_heap_extra_B=707867
+mem_stacks_B=0
+heap_tree=peak
+n3: 14196989 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8966876 0x53C6D31: QImageData::create(QSize const&, QImage::Format) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+  n3: 8966876 0x53C707E: QImage::QImage(QSize const&, QImage::Format) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+   n1: 5813648 0xAC5F51E: QtWaylandClient::QWaylandAbstractDecoration::contentImage() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+    n1: 5813648 0xAC8FD2B: QtWaylandClient::QWaylandShmBackingStore::updateDecorations() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+     n1: 5813648 0xAC905D7: QtWaylandClient::QWaylandShmBackingStore::flush(QWindow*, QRegion const&, QPoint const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+      n1: 5813648 0x54C114F: QBackingStore::flush(QRegion const&, QWindow*, QPoint const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+       n2: 5813648 0x4C820D6: QWidgetRepaintManager::flush(QWidget*, QRegion const&, QPlatformTextureList*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+        n1: 5813648 0x4C83515: QWidgetRepaintManager::flush() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+         n2: 5813648 0x4C85703: QWidgetRepaintManager::paintAndFlush() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+          n1: 2906824 0x4C797E7: QWidget::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+           n1: 2906824 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+            n2: 2906824 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+             n1: 2906824 0x5EB8B1C: QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+              n1: 2906824 0x61A7176: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+               n1: 2906824 0x6D3BD3A: g_main_context_dispatch (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                n1: 2906824 0x6D91257: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                 n1: 2906824 0x6D393E2: g_main_context_iteration (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                  n1: 2906824 0x61A682D: QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                   n1: 2906824 0x5EC23FA: QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                    n1: 2906824 0x5EBDED9: QCoreApplication::exec() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                     n0: 2906824 0x1852AF: main (main.cpp:24)
+             n0: 0 in 1 place, below massif's threshold (5.00%)
+          n1: 2906824 0x4C86462: QWidgetRepaintManager::sync(QWidget*, QRegion const&) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+           n1: 2906824 0x4C9026C: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+            n1: 2906824 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+             n1: 2906824 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+              n1: 2906824 0x543D06A: QGuiApplicationPrivate::processExposeEvent(QWindowSystemInterfacePrivate::ExposeEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+               n1: 2906824 0x54A39EB: QWindowSystemInterface::sendWindowSystemEvents(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                n2: 2906824 0x54A3C17: QWindowSystemInterface::flushWindowSystemEvents(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                 n1: 2906824 0x5F1B0E2: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                  n1: 2906824 0x61A6871: QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                   n1: 2906824 0x5EC23FA: QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                    n1: 2906824 0x5EBDED9: QCoreApplication::exec() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                     n0: 2906824 0x1852AF: main (main.cpp:24)
+                 n0: 0 in 1 place, below massif's threshold (5.00%)
+        n0: 0 in 1 place, below massif's threshold (5.00%)
+   n2: 3153228 0x53C70C6: QImage::QImage(int, int, QImage::Format) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+    n1: 3145728 0x53CBF23: QImage::convertToFormat_helper(QImage::Format, QFlags<Qt::ImageConversionFlag>) const (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+     n1: 3145728 0x540586F: QRasterPlatformPixmap::createPixmapForImage(QImage, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+      n1: 3145728 0x5405DED: QRasterPlatformPixmap::fromImage(QImage const&, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+       n1: 3145728 0x540DCDC: QPlatformPixmap::fromFile(QString const&, char const*, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+        n3: 3145728 0x5403D48: QPixmap::load(QString const&, char const*, QFlags<Qt::ImageConversionFlag>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+         n1: 1048576 0x21C07B: Ui_FileImportWindow::setupUi(QMainWindow*) (ui_fileimportwindow.h:95)
+          n1: 1048576 0x219DAB: FileImportWindow::FileImportWindow(QWidget*) (fileimportwindow.cpp:12)
+           n0: 1048576 0x18527A: main (main.cpp:12)
+         n1: 1048576 0x222AEE: Ui_DynamicUI::setupUi(QMainWindow*) (ui_dynamicui.h:165)
+          n1: 1048576 0x21F20A: DynamicUI::DynamicUI(QWidget*, QString const&) (dynamicui.cpp:22)
+           n1: 1048576 0x21A755: FileImportWindow::dropEvent(QDropEvent*) (fileimportwindow.cpp:49)
+            n1: 1048576 0x4C7969D: QWidget::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+             n1: 1048576 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+              n1: 1048576 0x4C1FF1E: QApplication::notify(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+               n1: 1048576 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                n1: 1048576 0x4C8F65D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                 n1: 1048576 0x4C902AB: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                  n1: 1048576 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                   n1: 1048576 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                    n1: 1048576 0x543D582: QGuiApplicationPrivate::processDrop(QWindow*, QMimeData const*, QPoint const&, QFlags<Qt::DropAction>, QFlags<Qt::MouseButton>, QFlags<Qt::KeyboardModifier>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                     n1: 1048576 0x54A2F24: QWindowSystemInterface::handleDrop(QWindow*, QMimeData const*, QPoint const&, QFlags<Qt::DropAction>, QFlags<Qt::MouseButton>, QFlags<Qt::KeyboardModifier>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                      n1: 1048576 0xACB5719: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                       n1: 1048576 0xAD1FE2D: ??? (in /usr/lib/x86_64-linux-gnu/libffi.so.8.1.0)
+                        n1: 1048576 0xAD1C492: ??? (in /usr/lib/x86_64-linux-gnu/libffi.so.8.1.0)
+                         n1: 1048576 0xAD0DACF: ??? (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                          n1: 1048576 0xAD0E242: ??? (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                           n1: 1048576 0xAD0E43B: wl_display_dispatch_queue_pending (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                            n1: 1048576 0xAC68B85: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                             n1: 1048576 0xAC62040: QtWaylandClient::QWaylandDisplay::flushRequests() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                              n0: 1048576 0x5F0EEA7: QObject::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+         n1: 1048576 0x222F4A: Ui_DynamicUI::setupUi(QMainWindow*) (ui_dynamicui.h:176)
+          n1: 1048576 0x21F20A: DynamicUI::DynamicUI(QWidget*, QString const&) (dynamicui.cpp:22)
+           n1: 1048576 0x21A755: FileImportWindow::dropEvent(QDropEvent*) (fileimportwindow.cpp:49)
+            n1: 1048576 0x4C7969D: QWidget::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+             n1: 1048576 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+              n1: 1048576 0x4C1FF1E: QApplication::notify(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+               n1: 1048576 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                n1: 1048576 0x4C8F65D: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                 n1: 1048576 0x4C902AB: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                  n1: 1048576 0x4C16BEA: QApplicationPrivate::notify_helper(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Widgets.so.6.9.3)
+                   n1: 1048576 0x5EB5309: QCoreApplication::notifyInternal2(QObject*, QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+                    n1: 1048576 0x543D582: QGuiApplicationPrivate::processDrop(QWindow*, QMimeData const*, QPoint const&, QFlags<Qt::DropAction>, QFlags<Qt::MouseButton>, QFlags<Qt::KeyboardModifier>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                     n1: 1048576 0x54A2F24: QWindowSystemInterface::handleDrop(QWindow*, QMimeData const*, QPoint const&, QFlags<Qt::DropAction>, QFlags<Qt::MouseButton>, QFlags<Qt::KeyboardModifier>) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Gui.so.6.9.3)
+                      n1: 1048576 0xACB5719: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                       n1: 1048576 0xAD1FE2D: ??? (in /usr/lib/x86_64-linux-gnu/libffi.so.8.1.0)
+                        n1: 1048576 0xAD1C492: ??? (in /usr/lib/x86_64-linux-gnu/libffi.so.8.1.0)
+                         n1: 1048576 0xAD0DACF: ??? (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                          n1: 1048576 0xAD0E242: ??? (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                           n1: 1048576 0xAD0E43B: wl_display_dispatch_queue_pending (in /usr/lib/x86_64-linux-gnu/libwayland-client.so.0.20.0)
+                            n1: 1048576 0xAC68B85: ??? (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                             n1: 1048576 0xAC62040: QtWaylandClient::QWaylandDisplay::flushRequests() (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6WaylandClient.so.6.9.3)
+                              n0: 1048576 0x5F0EEA7: QObject::event(QEvent*) (in /home/parallels/Qt/6.9.3/gcc_64/lib/libQt6Core.so.6.9.3)
+    n0: 7500 in 1 place, below massif's threshold (5.00%)
+   n0: 0 in 1 place, below massif's threshold (5.00%)
+ n0: 4086289 in 1237 places, all below massif's threshold (5.00%)
+ n1: 1143824 0x6D44D7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 1143824 in 53 places, all below massif's threshold (5.00%)
+#-----------
+snapshot=82
+#-----------
+time=17110
+mem_heap_B=11293749
+mem_heap_extra_B=708651
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=17259
+mem_heap_B=11291421
+mem_heap_extra_B=708395
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=18306
+mem_heap_B=11289389
+mem_heap_extra_B=708387
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=85
+#-----------
+time=18469
+mem_heap_B=11289261
+mem_heap_extra_B=708379
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=86
+#-----------
+time=19365
+mem_heap_B=11289246
+mem_heap_extra_B=708370
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=87
+#-----------
+time=19747
+mem_heap_B=11289685
+mem_heap_extra_B=708403
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=88
+#-----------
+time=19896
+mem_heap_B=11289845
+mem_heap_extra_B=708475
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=89
+#-----------
+time=20041
+mem_heap_B=11289685
+mem_heap_extra_B=708403
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=90
+#-----------
+time=20165
+mem_heap_B=11289765
+mem_heap_extra_B=708451
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=91
+#-----------
+time=20322
+mem_heap_B=11289725
+mem_heap_extra_B=708419
+mem_stacks_B=0
+heap_tree=empty
