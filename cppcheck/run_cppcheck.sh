@@ -28,5 +28,5 @@ cppcheck-htmlreport \
 
 echo ""
 echo "✅ Analiza završena!"
-echo "📄 HTML izveštaj: $REPORT_DIR/index.html"
-echo "📝 Tekstualni izveštaj: $TXT_REPORT"
+echo "HTML izveštaj: $REPORT_DIR/index.html"
+echo "Tekstualni izveštaj: $TXT_REPORT"
