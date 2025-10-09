@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.7"/>
+    <errors>
+        <error id="preprocessorErrorDirective" severity="error" msg="failed to evaluate #if condition" verbose="failed to evaluate #if condition">
+            <location file="/home/parallels/Qt/6.9.3/gcc_64/include/QtCore/qtconfiginclude.h" line="12" column="0"/>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;_vars&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;_vars&apos; a value by passing the value to the constructor in the initialization list." cwe="398" file0="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp" line="50" column="2"/>
+            <symbol>_vars</symbol>
+        </error>
+        <error id="functionConst" severity="style" msg="Technically the member function &apos;VarVector::operator[]&apos; can be const." verbose="The member function &apos;VarVector::operator[]&apos; can be made a const function. Making this function &apos;const&apos; should not cause compiler errors. Even though the function can be made const function technically it may not make sense conceptually. Think about your design and the task of the function first - is it a function that must not change object internal state?" cwe="398" inconclusive="true" file0="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.h" line="20" column="10"/>
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp" line="57" column="20"/>
+            <symbol>VarVector::operator[]</symbol>
+        </error>
+        <error id="functionConst" severity="style" msg="Technically the member function &apos;VarVector::type&apos; can be const." verbose="The member function &apos;VarVector::type&apos; can be made a const function. Making this function &apos;const&apos; should not cause compiler errors. Even though the function can be made const function technically it may not make sense conceptually. Think about your design and the task of the function first - is it a function that must not change object internal state?" cwe="398" inconclusive="true" file0="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.h" line="21" column="7"/>
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp" line="61" column="17"/>
+            <symbol>VarVector::type</symbol>
+        </error>
+        <error id="functionConst" severity="style" msg="Technically the member function &apos;VarVector::vars&apos; can be const." verbose="The member function &apos;VarVector::vars&apos; can be made a const function. Making this function &apos;const&apos; should not cause compiler errors. Even though the function can be made const function technically it may not make sense conceptually. Think about your design and the task of the function first - is it a function that must not change object internal state?" cwe="398" inconclusive="true" file0="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.h" line="22" column="19"/>
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp" line="66" column="29"/>
+            <symbol>VarVector::vars</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;DataFrame&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;DataFrame&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.h" line="38" column="2"/>
+            <symbol>DataFrame</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;column&apos; can be declared with const" verbose="Parameter &apos;column&apos; can be declared with const" cwe="398" file0="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp" line="165" column="31" info="Parameter &apos;column&apos; can be declared with const"/>
+            <symbol>column</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;item&apos; can be declared with const" verbose="Parameter &apos;item&apos; can be declared with const" cwe="398" file0="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp" line="165" column="48" info="Parameter &apos;item&apos; can be declared with const"/>
+            <symbol>item</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;col&apos; can be declared with const" verbose="Parameter &apos;col&apos; can be declared with const" cwe="398" file0="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp" line="178" column="36" info="Parameter &apos;col&apos; can be declared with const"/>
+            <symbol>col</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;col&apos; can be declared with const" verbose="Parameter &apos;col&apos; can be declared with const" cwe="398" file0="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp" line="183" column="37" info="Parameter &apos;col&apos; can be declared with const"/>
+            <symbol>col</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;column&apos; can be declared with const" verbose="Parameter &apos;column&apos; can be declared with const" cwe="398" file0="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp" line="188" column="38" info="Parameter &apos;column&apos; can be declared with const"/>
+            <symbol>column</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;item&apos; can be declared with const" verbose="Parameter &apos;item&apos; can be declared with const" cwe="398" file0="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp" line="188" column="55" info="Parameter &apos;item&apos; can be declared with const"/>
+            <symbol>item</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::count_if algorithm instead of a raw loop." verbose="Consider using std::count_if algorithm instead of a raw loop." cwe="398" file0="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp" line="172" column="4"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::transform algorithm instead of a raw loop." verbose="Consider using std::transform algorithm instead of a raw loop." cwe="398" file0="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp" line="200" column="8"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::accumulate algorithm instead of a raw loop." verbose="Consider using std::accumulate algorithm instead of a raw loop." cwe="398" file0="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/statistic.cpp">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/statistic.cpp" line="106" column="7"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::count_if algorithm instead of a raw loop." verbose="Consider using std::count_if algorithm instead of a raw loop." cwe="398" file0="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/statistic.cpp">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/statistic.cpp" line="129" column="4"/>
+        </error>
+        <error id="preprocessorErrorDirective" severity="error" msg="failed to evaluate #if condition" verbose="failed to evaluate #if condition">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/tests/catch.hpp" line="317" column="0"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;TYPEtoString&apos; is never used." verbose="The function &apos;TYPEtoString&apos; is never used." cwe="561">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp" line="10" column="0"/>
+            <symbol>TYPEtoString</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;calculateStat&apos; is never used." verbose="The function &apos;calculateStat&apos; is never used." cwe="561">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/utils.cpp" line="15" column="0"/>
+            <symbol>calculateStat</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;count&apos; is never used." verbose="The function &apos;count&apos; is never used." cwe="561">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp" line="165" column="0"/>
+            <symbol>count</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;filter&apos; is never used." verbose="The function &apos;filter&apos; is never used." cwe="561">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp" line="188" column="0"/>
+            <symbol>filter</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;filterStatsByType&apos; is never used." verbose="The function &apos;filterStatsByType&apos; is never used." cwe="561">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/utils.cpp" line="6" column="0"/>
+            <symbol>filterStatsByType</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;focusInEvent&apos; is never used." verbose="The function &apos;focusInEvent&apos; is never used." cwe="561">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/tcontainer.cpp" line="51" column="0"/>
+            <symbol>focusInEvent</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;focusOutEvent&apos; is never used." verbose="The function &apos;focusOutEvent&apos; is never used." cwe="561">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/tcontainer.cpp" line="59" column="0"/>
+            <symbol>focusOutEvent</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;isDateType&apos; is never used." verbose="The function &apos;isDateType&apos; is never used." cwe="561">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp" line="24" column="0"/>
+            <symbol>isDateType</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;mousePressEvent&apos; is never used." verbose="The function &apos;mousePressEvent&apos; is never used." cwe="561">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/tcontainer.cpp" line="74" column="0"/>
+            <symbol>mousePressEvent</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;saveToPdf&apos; is never used." verbose="The function &apos;saveToPdf&apos; is never used." cwe="561">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/report.cpp" line="34" column="0"/>
+            <symbol>saveToPdf</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;setTargetWidget&apos; is never used." verbose="The function &apos;setTargetWidget&apos; is never used." cwe="561">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/report.cpp" line="12" column="0"/>
+            <symbol>setTargetWidget</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;unique&apos; is never used." verbose="The function &apos;unique&apos; is never used." cwe="561">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp" line="149" column="0"/>
+            <symbol>unique</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;valueCounts&apos; is never used." verbose="The function &apos;valueCounts&apos; is never used." cwe="561">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/dataframe.cpp" line="81" column="0"/>
+            <symbol>valueCounts</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;value_counts&apos; is never used." verbose="The function &apos;value_counts&apos; is never used." cwe="561">
+            <location file="/media/psf/RemovableDisk/faks/vs/projekat/2024_Research_KLEExplore/alat-za-analitiku/alatZaAnalitiku/src/statistic.cpp" line="111" column="0"/>
+            <symbol>value_counts</symbol>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>
