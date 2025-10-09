@@ -9,7 +9,6 @@
 ## Informacije o projektu
 
 Predmet ove analize verifikacije softvera je projekat **[Alat za analitiku](https://gitlab.com/matf-bg-ac-rs/course-rs/projects-2023-2024/alat-za-analitiku)**.  
-Projekat je razvijen u programskom jeziku **C++** uz korišćenje **Qt6** frameworka.  
 
 Analiza je sprovedena nad granom `main` i commit-om  
 [2f803aed](https://gitlab.com/matf-bg-ac-rs/course-rs/projects-2023-2024/alat-za-analitiku/-/commit/2f803aed95026681789b7905e8ddceb2b4e815e9).
@@ -33,6 +32,8 @@ Korisniku su dostupne sledeće funkcionalnosti:
 - štampanje i čuvanje izveštaja.  
 
 Projekat se može posmatrati kao pojednostavljena verzija alata poput PowerBI-ja, namenjena lokalnoj analizi i vizualizaciji podataka.
+
+Projekat je razvijen u programskom jeziku **C++** uz korišćenje **Qt6** frameworka.  
 
 ---
 
