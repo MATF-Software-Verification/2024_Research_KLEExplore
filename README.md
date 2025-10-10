@@ -44,7 +44,7 @@ Za sprovođenje analize korišćeni su sledeći alati:
 - **Valgrind – Memcheck** → detekcija curenja memorije,  
 - **Valgrind – Massif** → praćenje potrošnje memorije,  
 - **Clang-Format** → automatsko formatiranje koda,  
-- **Cppcheck** → statička analiza koda.  
+- **Cppcheck** → statička analiza koda.
 
 Svaki alat ima svoj direktorijum sa rezultatima analize i pratećim skriptama za pokretanje.
 
@@ -61,9 +61,15 @@ Organizacija:
         └── memcheck/    # Rezultati i skripta za Memcheck  
         
   
+Detaljna uputstva za pokretanje skripti nalaze se unutar odgovarajućih direktorijuma.
 
-Detaljna uputstva za pokretanje skripti i tumačenje rezultata nalaze se unutar odgovarajućih direktorijuma.
+- ### Instalacija alata (Linux)
 
+Na Linux sistemima, potrebni alati se mogu instalirati komandom:
+
+```bash
+sudo apt update && sudo apt install -y valgrind clang-format cppcheck
+```
 
 ---
 
